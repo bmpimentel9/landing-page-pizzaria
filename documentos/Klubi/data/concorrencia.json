@@ -1,0 +1,360 @@
+{
+  "timestamp": "2026-01-28T17:20:00",
+  "fonte": "Pesquisa web sobre mercado de consórcios Brasil 2025",
+  "disclaimer": "Análise baseada em presença pública e informações disponíveis. Dados internos de desempenho não acessíveis.",
+  "concorrentes": [
+    {
+      "nome": "Rodobens Consórcios",
+      "posicionamento": "Líder de mercado - melhor taxa administrativa",
+      "diferenciais": [
+        "Mais de 50 anos de história",
+        "Parte de grande grupo empresarial de SP",
+        "Melhor administração segundo rankings",
+        "Origem no setor automotivo"
+      ],
+      "presenca_digital": {
+        "site": "Sim - rodobens.com.br",
+        "app_mobile": "Sim - Rodobens Digital (Google Play)",
+        "tecnologias_visiveis": ["WhatsApp Business", "PWA", "AWS"],
+        "maturidade_estimada": "Alta"
+      },
+      "presenca_midia": {
+        "google_ads": "Não verificado publicamente",
+        "meta_ads": "Não verificado publicamente",
+        "seo": "Forte presença em palavras-chave principais"
+      },
+      "desempenho_2025": {
+        "crescimento": "+40% em consórcios",
+        "vendas": "R$ 1,2 bilhão em agosto, R$ 2,5 bilhões no trimestre",
+        "parcerias": "XP Investimentos, BTG, white label"
+      },
+      "publico_alvo": "Tradicional (idade média estimada: 45-55 anos)",
+      "fonte": "NeoFeed, iDinheiro, LeadIQ",
+      "maturidade_digital_estimada": {
+        "tagueamento": 80,
+        "analytics": 85,
+        "midia_paga": 80,
+        "seo": 85,
+        "velocidade": 75,
+        "conteudo": 70,
+        "crm": 80,
+        "geral": 79
+      }
+    },
+    {
+      "nome": "Sicredi Consórcios",
+      "posicionamento": "Melhor banco para consórcio - cooperativa",
+      "diferenciais": [
+        "Maior cooperativa financeira do Brasil",
+        "Condições especiais para cooperados",
+        "Taxas administrativas atrativas",
+        "Portfólio diversificado (imóveis, veículos, drones, móveis)"
+      ],
+      "presenca_digital": {
+        "site": "Sim",
+        "app_mobile": "Sim (app Sicredi geral)",
+        "maturidade_estimada": "Alta"
+      },
+      "presenca_midia": {
+        "google_ads": "Não verificado publicamente",
+        "meta_ads": "Não verificado publicamente",
+        "seo": "Forte presença em termos de imóveis"
+      },
+      "publico_alvo": "Cooperados e comunidades regionais",
+      "forte_em": ["Consórcio de imóvel", "Relacionamento com cooperados"],
+      "fonte": "iDinheiro, rankings de consórcios",
+      "maturidade_digital_estimada": {
+        "tagueamento": 75,
+        "analytics": 75,
+        "midia_paga": 70,
+        "seo": 80,
+        "velocidade": 75,
+        "conteudo": 65,
+        "crm": 85,
+        "geral": 75
+      }
+    },
+    {
+      "nome": "Santander Consórcio",
+      "posicionamento": "Grande banco - conglomerado global",
+      "diferenciais": [
+        "Parte de conglomerado financeiro global",
+        "Ampla rede de atendimento",
+        "Sistemas digitais robustos",
+        "Base de clientes consolidada"
+      ],
+      "presenca_digital": {
+        "site": "Sim",
+        "app_mobile": "Sim (integrado ao app Santander)",
+        "maturidade_estimada": "Muito Alta"
+      },
+      "presenca_midia": {
+        "google_ads": "Provável (não verificado publicamente)",
+        "meta_ads": "Provável (não verificado publicamente)",
+        "seo": "Presença forte em termos gerais"
+      },
+      "publico_alvo": "Correntistas Santander, público geral",
+      "forte_em": ["Infraestrutura", "Credibilidade da marca"],
+      "fonte": "ConsorcioCred, rankings gerais",
+      "maturidade_digital_estimada": {
+        "tagueamento": 85,
+        "analytics": 90,
+        "midia_paga": 85,
+        "seo": 75,
+        "velocidade": 70,
+        "conteudo": 60,
+        "crm": 90,
+        "geral": 79
+      }
+    },
+    {
+      "nome": "MAPFRE Consórcios",
+      "posicionamento": "Extensão de seguros - marca global",
+      "diferenciais": [
+        "Marca global com forte presença no Brasil",
+        "Reputação sólida em seguros",
+        "Foco em estabilidade e segurança contratual",
+        "Integração com portfólio de seguros"
+      ],
+      "presenca_digital": {
+        "site": "Sim",
+        "app_mobile": "Provável (integrado)",
+        "maturidade_estimada": "Alta"
+      },
+      "presenca_midia": {
+        "google_ads": "Não verificado publicamente",
+        "meta_ads": "Não verificado publicamente",
+        "seo": "Presença moderada"
+      },
+      "publico_alvo": "Clientes de seguros MAPFRE, público geral",
+      "forte_em": ["Credibilidade de marca", "Cross-sell com seguros"],
+      "fonte": "Consumidor.gov.br, rankings",
+      "maturidade_digital_estimada": {
+        "tagueamento": 75,
+        "analytics": 80,
+        "midia_paga": 75,
+        "seo": 70,
+        "velocidade": 75,
+        "conteudo": 65,
+        "crm": 80,
+        "geral": 74
+      }
+    },
+    {
+      "nome": "Itaú Consórcios",
+      "posicionamento": "Grande banco - solidez financeira",
+      "diferenciais": [
+        "Parte do maior banco privado do Brasil",
+        "Setor dedicado a consórcios",
+        "Consórcios para empresas",
+        "Infraestrutura digital robusta"
+      ],
+      "presenca_digital": {
+        "site": "Sim",
+        "app_mobile": "Sim (integrado ao app Itaú)",
+        "maturidade_estimada": "Muito Alta"
+      },
+      "presenca_midia": {
+        "google_ads": "Provável (não verificado publicamente)",
+        "meta_ads": "Provável (não verificado publicamente)",
+        "seo": "Forte presença em termos gerais"
+      },
+      "publico_alvo": "Correntistas Itaú, empresas, público geral",
+      "forte_em": ["Brand equity", "Infraestrutura digital", "B2B"],
+      "fonte": "Rankings de consórcios, análise de mercado",
+      "maturidade_digital_estimada": {
+        "tagueamento": 85,
+        "analytics": 90,
+        "midia_paga": 85,
+        "seo": 80,
+        "velocidade": 75,
+        "conteudo": 65,
+        "crm": 90,
+        "geral": 81
+      }
+    },
+    {
+      "nome": "Consórcio Gazin",
+      "posicionamento": "Varejo - eletroeletrônicos e móveis",
+      "diferenciais": [
+        "Forte presença em varejo físico",
+        "Especialização em eletroeletrônicos e móveis",
+        "Rede de lojas como canal de vendas",
+        "Público de classe C"
+      ],
+      "presenca_digital": {
+        "site": "Sim",
+        "app_mobile": "Provável",
+        "maturidade_estimada": "Média-Alta"
+      },
+      "presenca_midia": {
+        "google_ads": "Não verificado publicamente",
+        "meta_ads": "Não verificado publicamente",
+        "seo": "Presença em nichos de eletro"
+      },
+      "publico_alvo": "Clientes de varejo, classe C",
+      "forte_em": ["Eletroeletrônicos", "Móveis", "Atendimento em loja"],
+      "fonte": "Consumidor.gov.br, análise de mercado",
+      "maturidade_digital_estimada": {
+        "tagueamento": 65,
+        "analytics": 70,
+        "midia_paga": 70,
+        "seo": 65,
+        "velocidade": 70,
+        "conteudo": 60,
+        "crm": 70,
+        "geral": 67
+      }
+    },
+    {
+      "nome": "Magalu Consórcios",
+      "posicionamento": "Varejo digital - omnichannel",
+      "diferenciais": [
+        "Maior varejista digital do Brasil",
+        "Infraestrutura tecnológica avançada",
+        "Integração com ecossistema Magalu",
+        "Forte presença online e offline"
+      ],
+      "presenca_digital": {
+        "site": "Sim - integrado ao Magalu",
+        "app_mobile": "Sim - app Magalu",
+        "maturidade_estimada": "Muito Alta"
+      },
+      "presenca_midia": {
+        "google_ads": "Provável (investimento alto)",
+        "meta_ads": "Provável (investimento alto)",
+        "seo": "Domínio forte em e-commerce"
+      },
+      "publico_alvo": "Clientes Magalu, amplo espectro",
+      "forte_em": ["Digital", "Eletroeletrônicos", "Tech stack"],
+      "fonte": "Análise de mercado, DP Consórcios",
+      "maturidade_digital_estimada": {
+        "tagueamento": 90,
+        "analytics": 90,
+        "midia_paga": 90,
+        "seo": 85,
+        "velocidade": 85,
+        "conteudo": 75,
+        "crm": 90,
+        "geral": 86
+      }
+    },
+    {
+      "nome": "HS Consórcios",
+      "posicionamento": "Administradora independente - top rankings",
+      "diferenciais": [
+        "Entre as maiores administradoras independentes",
+        "Foco exclusivo em consórcios",
+        "Presença em rankings de liderança"
+      ],
+      "presenca_digital": {
+        "site": "Sim",
+        "app_mobile": "Provável",
+        "maturidade_estimada": "Média-Alta"
+      },
+      "presenca_midia": {
+        "google_ads": "Não verificado publicamente",
+        "meta_ads": "Não verificado publicamente",
+        "seo": "Presença moderada"
+      },
+      "publico_alvo": "Público geral",
+      "forte_em": ["Especialização em consórcios"],
+      "fonte": "DP Consórcios - maiores administradoras",
+      "maturidade_digital_estimada": {
+        "tagueamento": 70,
+        "analytics": 70,
+        "midia_paga": 65,
+        "seo": 70,
+        "velocidade": 70,
+        "conteudo": 60,
+        "crm": 70,
+        "geral": 68
+      }
+    }
+  ],
+  "analise_comparativa": {
+    "klubi_vs_mercado": {
+      "diferenciais_klubi": [
+        "Primeira e única fintech de consórcios autorizada pelo Banco Central",
+        "Público mais jovem (33 anos vs. 50 do setor)",
+        "100% digital desde o início (não legacy)",
+        "Posicionamento de menor mensalidade",
+        "Proposta de simplicidade"
+      ],
+      "gaps_klubi": [
+        "Brand awareness menor que bancos tradicionais",
+        "Base de clientes menor (62 mil vs milhões dos bancos)",
+        "Rede de distribuição limitada (apenas digital vs omnichannel)",
+        "Menor investimento em mídia aparente",
+        "Ausência de Meta Pixel e TikTok Pixel (competidores provavelmente têm)"
+      ],
+      "oportunidades": [
+        "Nicho digital ainda não saturado",
+        "Público jovem crescente no setor",
+        "Diferenciação por autorização BC (credibilidade)",
+        "Menor custo operacional (100% digital) pode gerar margens melhores",
+        "Agilidade de fintech vs burocracia de bancos"
+      ],
+      "ameacas": [
+        "Bancos tradicionais investindo em digital (ex: Rodobens Digital)",
+        "Magalu com tech stack avançado",
+        "Concorrência em preço pode erodir margens",
+        "Dependência de mídia paga sem presença orgânica forte"
+      ]
+    },
+    "maturidade_digital_comparativa": {
+      "tier_1_muito_alta": ["Magalu (86)", "Itaú (81)", "Santander (79)", "Rodobens (79)"],
+      "tier_2_alta": ["Sicredi (75)", "MAPFRE (74)"],
+      "tier_3_media_alta": ["Gazin (67)", "HS (68)"],
+      "klubi_estimada": "60.6 - Média-Alta com gaps críticos em pixels de mídia"
+    },
+    "posicionamento_seo_estimado": {
+      "lideranca_seo": ["Rodobens", "Itaú", "Sicredi"],
+      "presenca_moderada": ["Santander", "MAPFRE", "Magalu"],
+      "presenca_baixa": ["Gazin", "HS", "Klubi (inferido por análise)"]
+    }
+  },
+  "fontes": [
+    {
+      "fonte": "iDinheiro - Melhor Consórcio do Brasil: Ranking dos Melhores para 2026",
+      "url": "https://www.idinheiro.com.br/consorcios/melhor-consorcio-do-brasil/",
+      "confiabilidade": "Alta"
+    },
+    {
+      "fonte": "iDinheiro - Melhores Administradoras de Consórcio [Ranking 2026]",
+      "url": "https://www.idinheiro.com.br/consorcios/administradoras-de-consorcio/",
+      "confiabilidade": "Alta"
+    },
+    {
+      "fonte": "ConsorcioCred - Ranking das melhores empresas de consórcio 2025/2026",
+      "url": "https://www.consorciocred.com/ranking-das-melhores-empresas-de-consorcio-2025-2026-santander-consorcio-em-destaque/",
+      "confiabilidade": "Média-Alta"
+    },
+    {
+      "fonte": "DP Consórcios - 12 maiores administradoras de consórcios do Brasil",
+      "url": "https://www.dpconsorcios.com.br/blog/maiores-administradoras-consorcio-brasil",
+      "confiabilidade": "Média-Alta"
+    },
+    {
+      "fonte": "NeoFeed - Na Rodobens, consórcios crescem 40% e ganham espaço na Faria Lima",
+      "url": "https://neofeed.com.br/negocios/na-rodobens-consorcios-crescem-40-e-ganham-espaco-na-faria-lima/",
+      "confiabilidade": "Alta"
+    },
+    {
+      "fonte": "Consumidor.gov.br - Empresas Participantes",
+      "url": "https://consumidor.gov.br/pages/principal/empresas-participantes",
+      "confiabilidade": "Alta (oficial)"
+    },
+    {
+      "fonte": "Banco Central - Ranking de Administradoras de Consórcio",
+      "url": "https://www3.bcb.gov.br/ranking/consorcio.do",
+      "confiabilidade": "Muito Alta (oficial)"
+    }
+  ],
+  "limitacoes": [
+    "Maturidade digital estimada de forma qualitativa (sem acesso a painéis internos)",
+    "Presença em mídia paga não verificável publicamente para todos os players",
+    "Dados de investimento em marketing não disponíveis",
+    "Análise baseada apenas em presença pública visível"
+  ]
+}

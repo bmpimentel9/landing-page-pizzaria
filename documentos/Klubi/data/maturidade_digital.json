@@ -1,0 +1,207 @@
+{
+  "timestamp": "2026-01-28T17:20:00",
+  "fonte": "Análise técnica direta do site klubi.com.br",
+  "pilares": {
+    "tagueamento_tracking": {
+      "pontuacao": 70,
+      "justificativa": "Google Tag Manager implementado (GTM-K2K4NNFM), dataLayer configurado, eventos básicos capturados",
+      "evidencias": [
+        "GTM presente e funcional",
+        "dataLayer com eventos gtm.js, gtm.dom, gtm.load",
+        "Consent mode implementado (ad_storage, analytics_storage granted)"
+      ],
+      "gaps": [
+        "Não identificados eventos customizados de conversão",
+        "Falta estrutura clara de remarketing em funil"
+      ]
+    },
+    "google_analytics_ga4": {
+      "pontuacao": 65,
+      "justificativa": "GA4 implementado (G-XWSJC2D2LV) via GTM, mas com erro 503 em requisições",
+      "evidencias": [
+        "Property GA4: G-XWSJC2D2LV",
+        "Requisição para google-analytics.com identificada",
+        "Erro HTTP 503 em collect endpoint"
+      ],
+      "gaps": [
+        "Erro 503 sugere problema de configuração ou sobrecarga",
+        "Não verificado: enhanced measurement, conversões configuradas"
+      ]
+    },
+    "google_tag_manager": {
+      "pontuacao": 75,
+      "justificativa": "GTM implementado corretamente, carregando de forma assíncrona",
+      "evidencias": [
+        "GTM ID: GTM-K2K4NNFM",
+        "Script carregado via async",
+        "dataLayer inicializado antes do GTM"
+      ],
+      "gaps": [
+        "Não auditado: quantidade e qualidade de tags configuradas",
+        "Não verificado: triggers de conversão específicos"
+      ]
+    },
+    "pixels_midia": {
+      "pontuacao": 40,
+      "justificativa": "Apenas Amazon Ads detectado, ausência de Meta Pixel e TikTok Pixel",
+      "evidencias": [
+        "Amazon Ads presente (PID: f50f2bc2-cc6d-4c87-8e5b-7c8d345df148)",
+        "Google Ads Conversion: AW-362695272",
+        "Meta Pixel: NÃO detectado",
+        "TikTok Pixel: NÃO detectado"
+      ],
+      "gaps": [
+        "Ausência de Meta Pixel impede remarketing em Facebook/Instagram",
+        "Ausência de TikTok Pixel limita atuação nessa plataforma crescente",
+        "Dependência excessiva de um único canal (Amazon)"
+      ]
+    },
+    "remarketing": {
+      "pontuacao": 45,
+      "justificativa": "Estrutura básica presente via Google Ads, mas limitada sem Meta",
+      "evidencias": [
+        "Google Ads Conversion tag presente",
+        "Amazon Ads tracking ativo",
+        "Consent mode permite remarketing (ad_storage granted)"
+      ],
+      "gaps": [
+        "Sem Meta Pixel = sem remarketing em redes sociais",
+        "Não identificados eventos de funil (visualização produto, add to cart, etc)",
+        "Ausência de segmentação avançada aparente"
+      ]
+    },
+    "velocidade_site": {
+      "pontuacao": 78,
+      "justificativa": "Performance boa: DOM em 243ms, load completo em 937ms",
+      "evidencias": [
+        "DOMContentLoaded: 243ms",
+        "Load Time: 937ms (< 1 segundo)",
+        "Built com Framer (otimizado para performance)"
+      ],
+      "gaps": [
+        "156 recursos carregados (número alto, pode ser otimizado)",
+        "Não medido: Core Web Vitals (LCP, FID, CLS)"
+      ]
+    },
+    "seo_tecnico": {
+      "pontuacao": 60,
+      "justificativa": "Fundamentos presentes, mas com gaps importantes",
+      "evidencias": [
+        "Meta title: 'Klubi | Um novo jeito de fazer consórcio'",
+        "Meta description otimizada (menciona Banco Central, digital, menor mensalidade)",
+        "Canonical tag presente: https://www.klubi.com.br/",
+        "Viewport configurado",
+        "Open Graph implementado (og:title, og:description, og:image)",
+        "1 H1 presente: 'Um novo jeito de fazer consórcio'"
+      ],
+      "gaps": [
+        "Schema markup / JSON-LD: AUSENTE (structured data crítico para SEO)",
+        "Robots meta: apenas 'max-image-preview:large' (não especifica index/follow)",
+        "1 imagem sem alt (de 95 total = 99% ok, mas pode melhorar)",
+        "0 links internos detectados (navegação pode estar em JavaScript)",
+        "Sitemap.xml: não verificado"
+      ]
+    },
+    "seo_conteudo": {
+      "pontuacao": 55,
+      "justificativa": "Conteúdo básico presente, mas com oportunidades de expansão",
+      "evidencias": [
+        "H1 otimizado com palavra-chave principal",
+        "Meta description persuasiva",
+        "Foco em diferenciação (digital, Banco Central, menor mensalidade)"
+      ],
+      "gaps": [
+        "Não identificado: blog ou conteúdo educacional",
+        "Poucas palavras-chave transacionais visíveis na home",
+        "Links internos ausentes sugerem estrutura de conteúdo limitada",
+        "Sem schema de FAQ ou How-To (oportunidade para featured snippets)"
+      ]
+    },
+    "estrutura_crm_first_party": {
+      "pontuacao": 60,
+      "justificativa": "Tracking avançado com Amplitude, mas integração com CRM não verificada",
+      "evidencias": [
+        "Amplitude Analytics implementado (API key configurada)",
+        "Session Replay ativo (plugin detectado)",
+        "Hotjar configurado (ID: 2312000) para heatmaps e gravações",
+        "Consent mode permite coleta de dados first-party"
+      ],
+      "gaps": [
+        "Não verificado: integração com CRM (Salesforce, HubSpot, RD Station, etc)",
+        "Não identificado: lead scoring ou nurturing automation",
+        "Incerto: captura e enriquecimento de dados do usuário"
+      ]
+    },
+    "preparacao_midia_paga": {
+      "pontuacao": 58,
+      "justificativa": "Infraestrutura parcial, com gaps críticos em canais principais",
+      "evidencias": [
+        "Google Ads Conversion configurado",
+        "Amazon Ads ativo",
+        "Consent mode permite ads personalizados",
+        "Site rápido (bom para Quality Score)"
+      ],
+      "gaps": [
+        "Meta Pixel ausente = impossibilita Meta Ads otimizado",
+        "TikTok Pixel ausente = impossibilita TikTok Ads otimizado",
+        "Eventos de conversão não auditados",
+        "Landing pages específicas por campanha: não identificadas",
+        "Estrutura de UTMs: não verificada"
+      ]
+    }
+  },
+  "pontuacao_geral": 60.6,
+  "classificacao": "Implementação Adequada com Gaps Críticos",
+  "friccoes_criticas": [
+    {
+      "prioridade": 1,
+      "problema": "Ausência de Meta Pixel e TikTok Pixel",
+      "impacto": "Impede remarketing e otimização de campanhas nas duas maiores plataformas de mídia social",
+      "esforco": "Baixo (1-2 dias de implementação)",
+      "roi_esperado": "Alto"
+    },
+    {
+      "prioridade": 2,
+      "problema": "Erro 503 em Google Analytics",
+      "impacto": "Perda de dados de comportamento, impossibilita análise de funil e otimização",
+      "esforco": "Médio (debugging e correção)",
+      "roi_esperado": "Alto"
+    },
+    {
+      "prioridade": 3,
+      "problema": "Ausência de Structured Data (Schema.org)",
+      "impacto": "SEO técnico comprometido, perda de rich snippets e featured snippets",
+      "esforco": "Médio (3-5 dias para implementação completa)",
+      "roi_esperado": "Médio-Alto"
+    },
+    {
+      "prioridade": 4,
+      "problema": "Estrutura de conteúdo limitada",
+      "impacto": "Baixa captura de tráfego orgânico, dependência excessiva de mídia paga",
+      "esforco": "Alto (requer estratégia de conteúdo contínua)",
+      "roi_esperado": "Médio (longo prazo)"
+    },
+    {
+      "prioridade": 5,
+      "problema": "Eventos de conversão não customizados",
+      "impacto": "Otimização de campanhas baseada em dados genéricos, não em ações específicas do funil",
+      "esforco": "Médio (mapeamento de funil + implementação)",
+      "roi_esperado": "Alto"
+    }
+  ],
+  "tecnologias_detectadas": {
+    "cms": "Framer",
+    "analytics": ["Google Analytics 4", "Amplitude Analytics", "Hotjar"],
+    "tag_management": "Google Tag Manager",
+    "ad_platforms": ["Google Ads", "Amazon Ads"],
+    "hosting": "Framer CDN (framerusercontent.com)",
+    "outros": ["Session Replay (Amplitude plugin)"]
+  },
+  "notas_metodologicas": [
+    "Análise realizada via navegação direta no site",
+    "Inspeção de código-fonte, network requests e console",
+    "Limitações: não foram analisados painéis internos (GA4, GTM, ads)",
+    "Dados coletados em 28/01/2026 às 17:20 BRT",
+    "Erros de console identificados: 3 (relacionados a message channels, não críticos)"
+  ]
+}

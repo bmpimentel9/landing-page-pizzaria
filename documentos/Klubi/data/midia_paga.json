@@ -1,0 +1,277 @@
+{
+  "timestamp": "2026-01-28T17:20:00",
+  "fonte": "Tentativa de acesso a bibliotecas públicas de anúncios (limitações encontradas)",
+  "disclaimer": "Dados de presença em mídia paga limitados devido a restrições de acesso a bibliotecas públicas de anúncios. Análise baseada em evidências indiretas.",
+  "panorama_canais": {
+    "google_ads": {
+      "presenca_klubi_detectada": true,
+      "evidencias": [
+        "Google Ads Conversion tag presente no site: AW-362695272",
+        "GTM configurado para tracking de conversões",
+        "Consent mode permite ads personalizados"
+      ],
+      "biblioteca_anuncios": {
+        "acessivel": false,
+        "tentativa": "Google Ads Transparency Center",
+        "resultado": "Não foi possível verificar anúncios ativos publicamente",
+        "limitacao": "Biblioteca não retornou resultados específicos para Klubi"
+      },
+      "inferencia_atividade": "Provável - infraestrutura de tracking presente",
+      "oportunidades": [
+        "Search Ads em palavras-chave transacionais",
+        "Performance Max para captura ampla",
+        "Display Remarketing (infraestrutura presente)",
+        "YouTube Ads (canal não verificado)"
+      ]
+    },
+    "meta_ads": {
+      "presenca_klubi_detectada": false,
+      "evidencias": [
+        "Meta Pixel NÃO detectado no site (window.fbq = undefined)",
+        "Ausência de eventos de conversão Meta",
+        "Sem tracking de Instagram/Facebook"
+      ],
+      "biblioteca_anuncios": {
+        "acessivel": false,
+        "tentativa": "Meta Ads Library (facebook.com/ads/library)",
+        "resultado": "Impossível acessar via WebFetch",
+        "limitacao": "Facebook bloqueou acesso automatizado"
+      },
+      "inferencia_atividade": "Improvável ou muito limitado - sem pixel",
+      "gaps_criticos": [
+        "Sem Meta Pixel = impossível otimizar campanhas",
+        "Sem remarketing em Facebook/Instagram",
+        "Perda de audiência em plataformas sociais dominantes",
+        "Impossível criar Lookalike Audiences"
+      ],
+      "oportunidades_perdidas": [
+        "Facebook Ads para público 33 anos (alinhado com demo Klubi)",
+        "Instagram Ads (plataforma visual, alto engajamento)",
+        "Remarketing dinâmico",
+        "Conversões otimizadas por IA do Meta"
+      ]
+    },
+    "tiktok_ads": {
+      "presenca_klubi_detectada": false,
+      "evidencias": [
+        "TikTok Pixel NÃO detectado no site (window.ttq = undefined)",
+        "Ausência de tracking TikTok"
+      ],
+      "biblioteca_anuncios": {
+        "acessivel": false,
+        "tentativa": "TikTok Ads Library",
+        "resultado": "Não acessado",
+        "limitacao": "Não foi possível verificar presença"
+      },
+      "inferencia_atividade": "Improvável - sem pixel",
+      "contexto_mercado": "TikTok crescente para público jovem (alinhado com Klubi: 33 anos)",
+      "oportunidades_perdidas": [
+        "Plataforma em crescimento para público jovem",
+        "Custo por aquisição potencialmente menor que Meta",
+        "Conteúdo viral educacional sobre consórcios",
+        "Formato nativo para storytelling"
+      ]
+    },
+    "amazon_ads": {
+      "presenca_klubi_detectada": true,
+      "evidencias": [
+        "Amazon Ads script presente: PID f50f2bc2-cc6d-4c87-8e5b-7c8d345df148",
+        "Tracking ativo (requisição para ara.paa-reporting-advertising.amazon)",
+        "PageView event capturado"
+      ],
+      "inferencia_atividade": "Ativo e funcional",
+      "contexto": "Amazon Ads para consórcios é incomum - pode ser display/programmatic",
+      "nota": "Presença interessante mas canal secundário para consórcios"
+    },
+    "outros_canais": {
+      "linkedin_ads": {
+        "verificado": false,
+        "potencial": "Baixo (consórcios B2C, não B2B)",
+        "nota": "Relevante apenas se Klubi atuar em consórcios empresariais"
+      },
+      "programmatic_display": {
+        "verificado": false,
+        "potencial": "Médio (via DV360, Amazon, etc)",
+        "evidencia_indireta": "Amazon Ads presente sugere uso de programmatic"
+      },
+      "native_ads": {
+        "verificado": false,
+        "potencial": "Médio (Taboola, Outbrain para conteúdo)",
+        "nota": "Útil para captura de topo de funil"
+      }
+    }
+  },
+  "analise_gaps_criticos": [
+    {
+      "gap": "Ausência total de Meta Pixel",
+      "severidade": "Crítica",
+      "impacto": [
+        "Impossibilita remarketing em Facebook/Instagram (2+ bilhões de usuários)",
+        "Perda de otimização automática de conversões",
+        "Impossível criar Custom Audiences e Lookalikes",
+        "Sem dados de atribuição de Meta Ads"
+      ],
+      "correcao_recomendada": "Implementar Meta Pixel via GTM imediatamente",
+      "esforco": "Baixo (1-2 dias)",
+      "roi_esperado": "Muito Alto"
+    },
+    {
+      "gap": "Ausência de TikTok Pixel",
+      "severidade": "Alta",
+      "impacto": [
+        "Perda de canal crescente para público jovem (alinhado com Klubi)",
+        "Impossível otimizar TikTok Ads",
+        "Sem remarketing em plataforma viral"
+      ],
+      "correcao_recomendada": "Implementar TikTok Pixel via GTM",
+      "esforco": "Baixo (1 dia)",
+      "roi_esperado": "Alto (médio-longo prazo)"
+    },
+    {
+      "gap": "Eventos de conversão customizados não identificados",
+      "severidade": "Média-Alta",
+      "impacto": [
+        "Otimização de campanhas baseada em métricas genéricas",
+        "Não é possível medir micro-conversões (visualização produto, início simulação, etc)",
+        "Perda de eficiência em lances automáticos"
+      ],
+      "correcao_recomendada": "Mapear funil completo e implementar eventos via GTM",
+      "esforco": "Médio (3-5 dias para funil completo)",
+      "roi_esperado": "Alto"
+    }
+  ],
+  "benchmark_concorrentes_estimado": {
+    "grandes_bancos": {
+      "players": ["Itaú", "Santander"],
+      "presenca_estimada": {
+        "google_ads": "Alta - Search, Display, YouTube",
+        "meta_ads": "Alta - Full funnel",
+        "tiktok_ads": "Média - Testes em andamento",
+        "linkedin_ads": "Média - Foco B2B"
+      },
+      "investimento_estimado": "Muito Alto (milhões/ano)",
+      "maturidade": "Muito Alta"
+    },
+    "digitais_avancados": {
+      "players": ["Magalu", "Rodobens Digital"],
+      "presenca_estimada": {
+        "google_ads": "Muito Alta - Performance Max, Shopping",
+        "meta_ads": "Muito Alta - Full funnel otimizado",
+        "tiktok_ads": "Média-Alta - Crescente",
+        "programmatic": "Alta"
+      },
+      "investimento_estimado": "Alto (centenas de milhares a milhões/ano)",
+      "maturidade": "Muito Alta"
+    },
+    "tradicionais": {
+      "players": ["Sicredi", "MAPFRE", "Gazin"],
+      "presenca_estimada": {
+        "google_ads": "Média-Alta - Foco em Search",
+        "meta_ads": "Média - Campanhas sazonais",
+        "tiktok_ads": "Baixa - Pouca presença",
+        "linkedin_ads": "Baixa (exceto Sicredi - cooperados)"
+      },
+      "investimento_estimado": "Médio",
+      "maturidade": "Média-Alta"
+    },
+    "klubi_atual": {
+      "presenca_confirmada": {
+        "google_ads": "Provável (tracking presente)",
+        "amazon_ads": "Confirmado"
+      },
+      "presenca_ausente": {
+        "meta_ads": "Ausente (sem pixel)",
+        "tiktok_ads": "Ausente (sem pixel)"
+      },
+      "investimento_estimado": "Desconhecido - provavelmente baixo-médio",
+      "maturidade": "Média (60.6/100)",
+      "gap_vs_lideres": "Alto - especialmente em Meta Ads"
+    }
+  },
+  "recomendacoes_priorizadas": [
+    {
+      "prioridade": 1,
+      "acao": "Implementar Meta Pixel",
+      "justificativa": "Canal crítico para público 33 anos, remarketing essencial, ROI comprovado",
+      "prazo": "Imediato (1-2 dias)",
+      "impacto_esperado": "Abertura de canal inteiro de aquisição e remarketing"
+    },
+    {
+      "prioridade": 2,
+      "acao": "Configurar eventos de conversão customizados (Google + Meta)",
+      "justificativa": "Otimização de campanhas depende de eventos específicos do funil",
+      "prazo": "Curto (1 semana)",
+      "impacto_esperado": "Melhoria de 20-40% em eficiência de lances"
+    },
+    {
+      "prioridade": 3,
+      "acao": "Implementar TikTok Pixel",
+      "justificativa": "Canal crescente, público jovem, custo competitivo",
+      "prazo": "Curto (1 dia após Meta)",
+      "impacto_esperado": "Diversificação de canais, redução de CPL"
+    },
+    {
+      "prioridade": 4,
+      "acao": "Auditar e otimizar campanhas Google Ads existentes",
+      "justificativa": "Tracking presente mas eficácia desconhecida",
+      "prazo": "Médio (2 semanas)",
+      "impacto_esperado": "Redução de CPA em 15-30%"
+    },
+    {
+      "prioridade": 5,
+      "acao": "Testar Performance Max (Google) com feeds otimizados",
+      "justificativa": "Canal de IA do Google para captura multi-plataforma",
+      "prazo": "Médio (após eventos configurados)",
+      "impacto_esperado": "Expansão de reach com ROI controlado"
+    }
+  ],
+  "estrutura_funil_recomendada": {
+    "topo": {
+      "objetivo": "Awareness",
+      "canais": ["Meta Ads (vídeo/carrossel)", "TikTok Ads", "YouTube", "Display"],
+      "conteudo": ["Educacional sobre consórcios", "Diferencial Banco Central", "Depoimentos"],
+      "metricas": ["Impressões", "Reach", "Video Views", "CTR"]
+    },
+    "meio": {
+      "objetivo": "Consideração",
+      "canais": ["Google Search", "Meta Ads (conversões)", "Remarketing Display"],
+      "conteudo": ["Comparativos", "Simuladores", "Casos de sucesso"],
+      "metricas": ["Engajamento", "Simulações iniciadas", "Tempo no site", "Pages/Session"]
+    },
+    "fundo": {
+      "objetivo": "Conversão",
+      "canais": ["Google Search (branded + transacional)", "Remarketing (todos)", "Meta Conversões"],
+      "conteudo": ["Ofertas", "CTAs diretos", "Urgência"],
+      "metricas": ["Leads", "Aplicações", "CPL", "Conversão%", "ROAS"]
+    }
+  },
+  "limitacoes_analise": [
+    "Bibliotecas públicas de anúncios não acessíveis para verificação direta",
+    "Investimento em mídia da Klubi desconhecido",
+    "Performance de campanhas existentes não auditada",
+    "Criativos e mensagens não analisados",
+    "Landing pages de campanha não identificadas"
+  ],
+  "fontes": [
+    {
+      "fonte": "Análise técnica direta do site klubi.com.br",
+      "dados": "Presença de pixels e tracking scripts",
+      "confiabilidade": "Muito Alta"
+    },
+    {
+      "fonte": "Tentativa de acesso a Google Ads Transparency Center",
+      "resultado": "Sem dados específicos de Klubi",
+      "confiabilidade": "N/A"
+    },
+    {
+      "fonte": "Tentativa de acesso a Meta Ads Library",
+      "resultado": "Bloqueado",
+      "confiabilidade": "N/A"
+    },
+    {
+      "fonte": "Benchmarks de mercado (inferência qualitativa)",
+      "dados": "Presença estimada de concorrentes",
+      "confiabilidade": "Média"
+    }
+  ]
+}

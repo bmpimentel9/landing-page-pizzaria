@@ -1,0 +1,315 @@
+{
+  "timestamp": "2026-01-28T17:20:00",
+  "fonte": "Dados de mercado ABAC, CNN Brasil, Turn2C, análise de sazonalidade do setor",
+  "periodo_analise": "12 meses (Janeiro a Dezembro)",
+  "dados_mensais": [
+    {
+      "mes": "Janeiro",
+      "mes_num": 1,
+      "demanda_relativa": 70,
+      "caracteristicas": [
+        "Pós-festas, baixa liquidez dos consumidores",
+        "Início de planejamento anual",
+        "Resoluções de ano novo (realização de sonhos)"
+      ],
+      "oportunidade": "Média - captura de planejadores",
+      "estrategia_sugerida": "Conteúdo educacional, simulações, planejamento"
+    },
+    {
+      "mes": "Fevereiro",
+      "mes_num": 2,
+      "demanda_relativa": 72,
+      "caracteristicas": [
+        "Carnaval (menos foco em compras)",
+        "Volta às aulas (gastos com educação)",
+        "Recuperação pós-férias"
+      ],
+      "oportunidade": "Média-Baixa",
+      "estrategia_sugerida": "Manutenção de presença, remarketing leve"
+    },
+    {
+      "mes": "Março",
+      "mes_num": 3,
+      "demanda_relativa": 75,
+      "caracteristicas": [
+        "Normalização de rotina",
+        "IR (imposto de renda) - consciência financeira",
+        "Retomada de planejamento"
+      ],
+      "oportunidade": "Média",
+      "estrategia_sugerida": "Campanhas de organização financeira"
+    },
+    {
+      "mes": "Abril",
+      "mes_num": 4,
+      "demanda_relativa": 78,
+      "caracteristicas": [
+        "Recebimento de restituição IR para alguns",
+        "Páscoa (menor impacto em consórcios)",
+        "Planejamento de meio de ano"
+      ],
+      "oportunidade": "Média-Alta",
+      "estrategia_sugerida": "Captura de quem recebeu restituição"
+    },
+    {
+      "mes": "Maio",
+      "mes_num": 5,
+      "demanda_relativa": 80,
+      "caracteristicas": [
+        "Dia das Mães (foco em presentes, não consórcios)",
+        "Preparação para meio do ano",
+        "Crescimento gradual de interesse"
+      ],
+      "oportunidade": "Média-Alta",
+      "estrategia_sugerida": "Awareness e consideração"
+    },
+    {
+      "mes": "Junho",
+      "mes_num": 6,
+      "demanda_relativa": 82,
+      "caracteristicas": [
+        "Festa Junina",
+        "Planejamento de férias de julho",
+        "Meio do ano - revisão de metas"
+      ],
+      "oportunidade": "Alta",
+      "estrategia_sugerida": "Campanhas de meio de ano, revisão de objetivos"
+    },
+    {
+      "mes": "Julho",
+      "mes_num": 7,
+      "demanda_relativa": 92,
+      "caracteristicas": [
+        "FÉRIAS ESCOLARES - pico importante",
+        "Famílias planejando próximo ano",
+        "Interesse em veículos e viagens",
+        "13º meio de ano para alguns"
+      ],
+      "oportunidade": "Muito Alta - PICO SECUNDÁRIO",
+      "estrategia_sugerida": "Campanhas agressivas, ofertas especiais, remarketing intenso",
+      "nota": "Segundo maior pico do ano"
+    },
+    {
+      "mes": "Agosto",
+      "mes_num": 8,
+      "demanda_relativa": 84,
+      "caracteristicas": [
+        "Pós-férias, volta às aulas",
+        "Dia dos Pais (foco moderado)",
+        "Planejamento de fim de ano"
+      ],
+      "oportunidade": "Alta",
+      "estrategia_sugerida": "Manutenção de momentum de julho"
+    },
+    {
+      "mes": "Setembro",
+      "mes_num": 9,
+      "demanda_relativa": 86,
+      "caracteristicas": [
+        "Preparação para Black Friday",
+        "Aumento gradual de interesse",
+        "Planejamento de compras de fim de ano"
+      ],
+      "oportunidade": "Alta",
+      "estrategia_sugerida": "Pré-aquecimento para Black Friday, educação"
+    },
+    {
+      "mes": "Outubro",
+      "mes_num": 10,
+      "demanda_relativa": 90,
+      "caracteristicas": [
+        "Véspera de Black Friday",
+        "Dia das Crianças (foco em presentes imediatos)",
+        "Intensificação de interesse por consórcios",
+        "Preparação para festas de fim de ano"
+      ],
+      "oportunidade": "Muito Alta",
+      "estrategia_sugerida": "Campanhas de aquecimento intensas, lançamento de ofertas"
+    },
+    {
+      "mes": "Novembro",
+      "mes_num": 11,
+      "demanda_relativa": 100,
+      "caracteristicas": [
+        "BLACK FRIDAY - PICO ABSOLUTO DO ANO",
+        "Maior volume de buscas por alternativas de crédito",
+        "13º salário na mente dos consumidores",
+        "Planejamento para próximo ano",
+        "Ofertas e promoções em todo o mercado"
+      ],
+      "oportunidade": "MÁXIMA - PICO PRINCIPAL",
+      "estrategia_sugerida": "Investimento máximo em mídia, ofertas agressivas, remarketing total, ativação de todos os canais",
+      "nota": "Mês crítico - define grande parte do resultado anual. Importância: 10/10"
+    },
+    {
+      "mes": "Dezembro",
+      "mes_num": 12,
+      "demanda_relativa": 88,
+      "caracteristicas": [
+        "Festas de fim de ano",
+        "Recebimento de 13º salário",
+        "Planejamento para ano seguinte",
+        "Natal (foco em presentes imediatos)",
+        "Fechamento de metas anuais"
+      ],
+      "oportunidade": "Muito Alta",
+      "estrategia_sugerida": "Captura de 13º, campanhas de virada de ano, planejamento 2026",
+      "nota": "Segundo momento importante pós-Black Friday"
+    }
+  ],
+  "picos_identificados": {
+    "principal": {
+      "mes": "Novembro",
+      "razao": "Black Friday + preparação fim de ano + 13º",
+      "demanda_relativa": 100,
+      "impacto": "Crítico"
+    },
+    "secundario": {
+      "mes": "Julho",
+      "razao": "Férias escolares + planejamento semestral",
+      "demanda_relativa": 92,
+      "impacto": "Alto"
+    },
+    "terciario": {
+      "mes": "Dezembro",
+      "razao": "13º salário + planejamento ano novo",
+      "demanda_relativa": 88,
+      "impacto": "Alto"
+    }
+  },
+  "crescimento_setorial_2025": {
+    "geral": {
+      "percentual": "8-11%",
+      "fonte": "ABAC - Associação Brasileira de Administradoras de Consórcios",
+      "nota": "Crescimento esperado para 2025"
+    },
+    "imoveis": {
+      "percentual": "20-25%",
+      "fonte": "ABAC via Turn2C",
+      "nota": "Segmento com maior crescimento projetado"
+    },
+    "eletroeletronicos": {
+      "percentual": "20-23%",
+      "fonte": "ABAC",
+      "nota": "Forte crescimento em eletrodomésticos e eletrônicos"
+    },
+    "servicos": {
+      "percentual": "10%",
+      "fonte": "ABAC",
+      "nota": "Crescimento moderado mas consistente"
+    }
+  },
+  "contexto_economico": {
+    "juros_altos": {
+      "impacto": "Positivo para consórcios",
+      "razao": "Crédito tradicional caro incentiva busca por alternativas sem juros",
+      "fonte": "Turn2C, análise de mercado"
+    },
+    "crescimento_2023": {
+      "valor": "R$ 316,7 bilhões movimentados",
+      "crescimento": "+25,6% vs 2022",
+      "fonte": "ABAC via O2O Bots"
+    },
+    "participantes_ativos": {
+      "total": "10,29 milhões",
+      "crescimento": "+9,4% vs ano anterior",
+      "nota": "Recorde histórico no Brasil",
+      "fonte": "O2O Bots"
+    }
+  },
+  "janelas_de_atuacao": {
+    "antes_do_pico": {
+      "meses": ["Setembro", "Outubro"],
+      "objetivo": "Construir awareness e consideração",
+      "taticas": [
+        "Conteúdo educacional intenso",
+        "Remarketing de captura",
+        "Aquecimento de audiências",
+        "Ofertas early bird",
+        "Testes de criativos e mensagens"
+      ],
+      "investimento_relativo": "Médio-Alto (60-70% do pico)"
+    },
+    "durante_o_pico": {
+      "meses": ["Novembro", "Dezembro"],
+      "objetivo": "Conversão máxima",
+      "taticas": [
+        "Investimento máximo em mídia paga",
+        "Ofertas agressivas e limitadas",
+        "Remarketing total (display, social, search)",
+        "Ativação de todos os canais",
+        "Atendimento estendido",
+        "Landing pages otimizadas para conversão"
+      ],
+      "investimento_relativo": "Máximo (100%)"
+    },
+    "depois_do_pico": {
+      "meses": ["Janeiro", "Fevereiro"],
+      "objetivo": "Manutenção e planejadores",
+      "taticas": [
+        "Remarketing de nurturing",
+        "Conteúdo de planejamento anual",
+        "Captura de resoluções de ano novo",
+        "Ofertas para planeja dores de longo prazo",
+        "Redução de investimento em paid media"
+      ],
+      "investimento_relativo": "Baixo-Médio (30-40% do pico)"
+    }
+  },
+  "recomendacoes_estrategicas": {
+    "alocacao_orcamento_anual": {
+      "novembro_dezembro": "40-45%",
+      "julho": "15-20%",
+      "setembro_outubro": "20-25%",
+      "demais_meses": "15-20%"
+    },
+    "foco_por_periodo": {
+      "Q1_jan_mar": "Educação e planejamento",
+      "Q2_abr_jun": "Awareness e consideração",
+      "Q3_jul_set": "Pico secundário (julho) + preparação para Black Friday",
+      "Q4_out_dez": "Conversão máxima - foco total"
+    },
+    "segmentos_prioritarios_2025": [
+      "Imóveis (crescimento 20-25%)",
+      "Eletroeletrônicos (crescimento 20-23%)",
+      "Veículos (sempre relevante)",
+      "Serviços (crescimento 10%)"
+    ]
+  },
+  "fontes": [
+    {
+      "fonte": "ABAC (Associação Brasileira de Administradoras de Consórcios)",
+      "dados": "Crescimento setorial, projeções 2025",
+      "confiabilidade": "Muito Alta (oficial do setor)"
+    },
+    {
+      "fonte": "Turn2C - Tendências do mercado de consórcio para 2025",
+      "url": "https://turn2c.com/tendencias-do-mercado-de-consorcio-para-2025-oportunidades-e-crescimento/",
+      "dados": "Projeções de crescimento por segmento",
+      "confiabilidade": "Alta"
+    },
+    {
+      "fonte": "O2O Bots - Tendências e Dados do Mercado de Consórcios no Brasil",
+      "url": "https://www.o2obots.com/blog/tendencias-e-dados-do-mercado-de-consorcios-no-brasil-por-que-o-setor-cresceu-tanto",
+      "dados": "Crescimento 2023, participantes ativos",
+      "confiabilidade": "Alta"
+    },
+    {
+      "fonte": "CNN Brasil - Reportagem sobre Google Trends e consórcios",
+      "dados": "'Consórcio vale a pena' dominou buscas em finanças",
+      "confiabilidade": "Alta"
+    },
+    {
+      "fonte": "Análise de sazonalidade do setor financeiro e varejo",
+      "dados": "Padrões de Black Friday, férias, 13º salário",
+      "confiabilidade": "Média-Alta (baseada em padrões históricos)"
+    }
+  ],
+  "notas_metodologicas": [
+    "Demanda relativa: escala 0-100, sendo 100 = novembro (pico absoluto)",
+    "Valores baseados em análise qualitativa de tendências setoriais",
+    "Não foram utilizados dados proprietários de volume de vendas",
+    "Sazonalidade pode variar por segmento específico (imóveis vs veículos)",
+    "Contexto econômico de 2025-2026 considerado (juros altos, inflação)"
+  ]
+}

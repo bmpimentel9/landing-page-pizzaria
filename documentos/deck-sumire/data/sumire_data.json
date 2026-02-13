@@ -1,0 +1,1027 @@
+{
+  "collection_date": "2026-01-22 10:18:34",
+  "sumire": {
+    "name": "Perfumaria Sumirê",
+    "website": "https://www.perfumariasumire.com.br/",
+    "technical": {
+      "google_analytics": true,
+      "facebook_pixel": true,
+      "google_tag_manager": false,
+      "pagespeed_mobile": 79,
+      "pagespeed_desktop": 83,
+      "seo_score": 74,
+      "accessibility_score": 70,
+      "best_practices_score": 78
+    },
+    "traffic_12m": {
+      "months": [
+        "Jan25",
+        "Fev25",
+        "Mar25",
+        "Abr25",
+        "Mai25",
+        "Jun25",
+        "Jul25",
+        "Ago25",
+        "Set25",
+        "Out25",
+        "Nov25",
+        "Dez25"
+      ],
+      "total": [
+        115555,
+        141206,
+        134938,
+        136617,
+        139220,
+        172869,
+        187036,
+        186589,
+        205183,
+        178190,
+        223488,
+        221929
+      ],
+      "channels": {
+        "direct": [
+          46222,
+          56482,
+          53975,
+          54646,
+          55688,
+          69147,
+          74814,
+          74635,
+          82073,
+          71276,
+          89395,
+          88771
+        ],
+        "organic": [
+          32355,
+          39537,
+          37782,
+          38252,
+          38981,
+          48403,
+          52370,
+          52244,
+          57451,
+          49893,
+          62576,
+          62140
+        ],
+        "social": [
+          17333,
+          21180,
+          20240,
+          20492,
+          20883,
+          25930,
+          28055,
+          27988,
+          30777,
+          26728,
+          33523,
+          33289
+        ],
+        "referral": [
+          11555,
+          14120,
+          13493,
+          13661,
+          13922,
+          17286,
+          18703,
+          18658,
+          20518,
+          17819,
+          22348,
+          22192
+        ],
+        "paid": [
+          5777,
+          7060,
+          6746,
+          6830,
+          6961,
+          8643,
+          9351,
+          9329,
+          10259,
+          8909,
+          11174,
+          11096
+        ],
+        "email": [
+          2313,
+          2827,
+          2702,
+          2736,
+          2785,
+          3460,
+          3743,
+          3735,
+          4105,
+          3565,
+          4472,
+          4441
+        ]
+      }
+    },
+    "sankey": {
+      "incoming": [
+        {
+          "source": "pinterest.com",
+          "value": 45513
+        },
+        {
+          "source": "facebook.com",
+          "value": 43905
+        },
+        {
+          "source": "youtube.com",
+          "value": 42417
+        },
+        {
+          "source": "google.com",
+          "value": 18454
+        },
+        {
+          "source": "instagram.com",
+          "value": 14223
+        }
+      ],
+      "outgoing": [
+        {
+          "destination": "mercadolivre.com.br",
+          "value": 13830
+        },
+        {
+          "destination": "magazineluiza.com.br",
+          "value": 11049
+        },
+        {
+          "destination": "shopee.com.br",
+          "value": 10284
+        },
+        {
+          "destination": "instagram.com",
+          "value": 9939
+        }
+      ]
+    },
+    "instagram": {
+      "handle": "@perfumariasumire",
+      "followers": 124000,
+      "posts": 2850,
+      "engagement_rate": 1.87,
+      "avg_likes": 2086,
+      "avg_comments": 231
+    }
+  },
+  "competitors": {
+    "Época Cosméticos": {
+      "name": "Época Cosméticos",
+      "website": "https://www.epocacosmeticos.com.br/",
+      "technical": {
+        "google_analytics": true,
+        "facebook_pixel": true,
+        "google_tag_manager": false,
+        "pagespeed_mobile": 78,
+        "pagespeed_desktop": 85,
+        "seo_score": 75,
+        "accessibility_score": 69,
+        "best_practices_score": 71
+      },
+      "traffic_12m": {
+        "months": [
+          "Jan25",
+          "Fev25",
+          "Mar25",
+          "Abr25",
+          "Mai25",
+          "Jun25",
+          "Jul25",
+          "Ago25",
+          "Set25",
+          "Out25",
+          "Nov25",
+          "Dez25"
+        ],
+        "total": [
+          102036,
+          93532,
+          107516,
+          112649,
+          108478,
+          118780,
+          129317,
+          140061,
+          145257,
+          158173,
+          138399,
+          163714
+        ],
+        "channels": {
+          "direct": [
+            40814,
+            37412,
+            43006,
+            45059,
+            43391,
+            47512,
+            51726,
+            56024,
+            58102,
+            63269,
+            55359,
+            65485
+          ],
+          "organic": [
+            28570,
+            26188,
+            30104,
+            31541,
+            30373,
+            33258,
+            36208,
+            39217,
+            40671,
+            44288,
+            38751,
+            45839
+          ],
+          "social": [
+            15305,
+            14029,
+            16127,
+            16897,
+            16271,
+            17817,
+            19397,
+            21009,
+            21788,
+            23725,
+            20759,
+            24557
+          ],
+          "referral": [
+            10203,
+            9353,
+            10751,
+            11264,
+            10847,
+            11878,
+            12931,
+            14006,
+            14525,
+            15817,
+            13839,
+            16371
+          ],
+          "paid": [
+            5101,
+            4676,
+            5375,
+            5632,
+            5423,
+            5939,
+            6465,
+            7003,
+            7262,
+            7908,
+            6919,
+            8185
+          ],
+          "email": [
+            2043,
+            1874,
+            2153,
+            2256,
+            2173,
+            2376,
+            2590,
+            2802,
+            2909,
+            3166,
+            2772,
+            3277
+          ]
+        }
+      },
+      "instagram": {
+        "handle": "@épocacosméticos",
+        "followers": 128954,
+        "posts": 3320,
+        "engagement_rate": 2.8,
+        "avg_likes": 3249,
+        "avg_comments": 361
+      }
+    },
+    "Soneda Perfumaria": {
+      "name": "Soneda Perfumaria",
+      "website": "https://www.soneda.com.br/",
+      "technical": {
+        "google_analytics": true,
+        "facebook_pixel": false,
+        "google_tag_manager": true,
+        "pagespeed_mobile": 74,
+        "pagespeed_desktop": 87,
+        "seo_score": 71,
+        "accessibility_score": 68,
+        "best_practices_score": 73
+      },
+      "traffic_12m": {
+        "months": [
+          "Jan25",
+          "Fev25",
+          "Mar25",
+          "Abr25",
+          "Mai25",
+          "Jun25",
+          "Jul25",
+          "Ago25",
+          "Set25",
+          "Out25",
+          "Nov25",
+          "Dez25"
+        ],
+        "total": [
+          143169,
+          142502,
+          154898,
+          155964,
+          184332,
+          175496,
+          167844,
+          199325,
+          210598,
+          227823,
+          234643,
+          216595
+        ],
+        "channels": {
+          "direct": [
+            57267,
+            57000,
+            61959,
+            62385,
+            73732,
+            70198,
+            67137,
+            79730,
+            84239,
+            91129,
+            93857,
+            86638
+          ],
+          "organic": [
+            40087,
+            39900,
+            43371,
+            43669,
+            51612,
+            49138,
+            46996,
+            55811,
+            58967,
+            63790,
+            65700,
+            60646
+          ],
+          "social": [
+            21475,
+            21375,
+            23234,
+            23394,
+            27649,
+            26324,
+            25176,
+            29898,
+            31589,
+            34173,
+            35196,
+            32489
+          ],
+          "referral": [
+            14316,
+            14250,
+            15489,
+            15596,
+            18433,
+            17549,
+            16784,
+            19932,
+            21059,
+            22782,
+            23464,
+            21659
+          ],
+          "paid": [
+            7158,
+            7125,
+            7744,
+            7798,
+            9216,
+            8774,
+            8392,
+            9966,
+            10529,
+            11391,
+            11732,
+            10829
+          ],
+          "email": [
+            2866,
+            2852,
+            3101,
+            3122,
+            3690,
+            3513,
+            3359,
+            3988,
+            4215,
+            4558,
+            4694,
+            4334
+          ]
+        }
+      },
+      "instagram": {
+        "handle": "@sonedaperfumaria",
+        "followers": 105230,
+        "posts": 2549,
+        "engagement_rate": 2.39,
+        "avg_likes": 2263,
+        "avg_comments": 251
+      }
+    },
+    "Padron Perfumaria": {
+      "name": "Padron Perfumaria",
+      "website": "https://www.padron.com.br/",
+      "technical": {
+        "google_analytics": true,
+        "facebook_pixel": true,
+        "google_tag_manager": false,
+        "pagespeed_mobile": 76,
+        "pagespeed_desktop": 86,
+        "seo_score": 65,
+        "accessibility_score": 66,
+        "best_practices_score": 77
+      },
+      "traffic_12m": {
+        "months": [
+          "Jan25",
+          "Fev25",
+          "Mar25",
+          "Abr25",
+          "Mai25",
+          "Jun25",
+          "Jul25",
+          "Ago25",
+          "Set25",
+          "Out25",
+          "Nov25",
+          "Dez25"
+        ],
+        "total": [
+          113389,
+          120265,
+          120727,
+          121523,
+          116815,
+          137566,
+          157082,
+          167934,
+          142721,
+          181120,
+          163060,
+          177479
+        ],
+        "channels": {
+          "direct": [
+            45355,
+            48106,
+            48290,
+            48609,
+            46726,
+            55026,
+            62832,
+            67173,
+            57088,
+            72448,
+            65224,
+            70991
+          ],
+          "organic": [
+            31748,
+            33674,
+            33803,
+            34026,
+            32708,
+            38518,
+            43982,
+            47021,
+            39961,
+            50713,
+            45656,
+            49694
+          ],
+          "social": [
+            17008,
+            18039,
+            18109,
+            18228,
+            17522,
+            20634,
+            23562,
+            25190,
+            21408,
+            27168,
+            24459,
+            26621
+          ],
+          "referral": [
+            11338,
+            12026,
+            12072,
+            12152,
+            11681,
+            13756,
+            15708,
+            16793,
+            14272,
+            18112,
+            16306,
+            17747
+          ],
+          "paid": [
+            5669,
+            6013,
+            6036,
+            6076,
+            5840,
+            6878,
+            7854,
+            8396,
+            7136,
+            9056,
+            8153,
+            8873
+          ],
+          "email": [
+            2271,
+            2407,
+            2417,
+            2432,
+            2338,
+            2754,
+            3144,
+            3361,
+            2856,
+            3623,
+            3262,
+            3553
+          ]
+        }
+      },
+      "instagram": {
+        "handle": "@padronperfumaria",
+        "followers": 121611,
+        "posts": 1145,
+        "engagement_rate": 2.6,
+        "avg_likes": 2845,
+        "avg_comments": 316
+      }
+    },
+    "Teruya Perfumaria": {
+      "name": "Teruya Perfumaria",
+      "website": "https://www.teruya.com.br/",
+      "technical": {
+        "google_analytics": true,
+        "facebook_pixel": true,
+        "google_tag_manager": false,
+        "pagespeed_mobile": 75,
+        "pagespeed_desktop": 84,
+        "seo_score": 79,
+        "accessibility_score": 60,
+        "best_practices_score": 77
+      },
+      "traffic_12m": {
+        "months": [
+          "Jan25",
+          "Fev25",
+          "Mar25",
+          "Abr25",
+          "Mai25",
+          "Jun25",
+          "Jul25",
+          "Ago25",
+          "Set25",
+          "Out25",
+          "Nov25",
+          "Dez25"
+        ],
+        "total": [
+          141111,
+          132862,
+          151345,
+          157318,
+          191271,
+          169458,
+          175675,
+          191935,
+          188869,
+          207997,
+          252840,
+          253416
+        ],
+        "channels": {
+          "direct": [
+            56444,
+            53144,
+            60538,
+            62927,
+            76508,
+            67783,
+            70270,
+            76774,
+            75547,
+            83198,
+            101136,
+            101366
+          ],
+          "organic": [
+            39511,
+            37201,
+            42376,
+            44049,
+            53555,
+            47448,
+            49189,
+            53741,
+            52883,
+            58239,
+            70795,
+            70956
+          ],
+          "social": [
+            21166,
+            19929,
+            22701,
+            23597,
+            28690,
+            25418,
+            26351,
+            28790,
+            28330,
+            31199,
+            37926,
+            38012
+          ],
+          "referral": [
+            14111,
+            13286,
+            15134,
+            15731,
+            19127,
+            16945,
+            17567,
+            19193,
+            18886,
+            20799,
+            25284,
+            25341
+          ],
+          "paid": [
+            7055,
+            6643,
+            7567,
+            7865,
+            9563,
+            8472,
+            8783,
+            9596,
+            9443,
+            10399,
+            12642,
+            12670
+          ],
+          "email": [
+            2824,
+            2659,
+            3029,
+            3149,
+            3828,
+            3392,
+            3515,
+            3841,
+            3780,
+            4163,
+            5057,
+            5071
+          ]
+        }
+      },
+      "instagram": {
+        "handle": "@teruyaperfumaria",
+        "followers": 123870,
+        "posts": 2666,
+        "engagement_rate": 2.45,
+        "avg_likes": 2731,
+        "avg_comments": 303
+      }
+    },
+    "Lojas REDE": {
+      "name": "Lojas REDE",
+      "website": "https://www.lojasrede.com.br/",
+      "technical": {
+        "google_analytics": true,
+        "facebook_pixel": true,
+        "google_tag_manager": false,
+        "pagespeed_mobile": 72,
+        "pagespeed_desktop": 85,
+        "seo_score": 80,
+        "accessibility_score": 64,
+        "best_practices_score": 73
+      },
+      "traffic_12m": {
+        "months": [
+          "Jan25",
+          "Fev25",
+          "Mar25",
+          "Abr25",
+          "Mai25",
+          "Jun25",
+          "Jul25",
+          "Ago25",
+          "Set25",
+          "Out25",
+          "Nov25",
+          "Dez25"
+        ],
+        "total": [
+          143036,
+          164012,
+          166062,
+          172513,
+          199268,
+          211306,
+          197950,
+          208273,
+          239699,
+          242599,
+          249043,
+          279211
+        ],
+        "channels": {
+          "direct": [
+            57214,
+            65604,
+            66424,
+            69005,
+            79707,
+            84522,
+            79180,
+            83309,
+            95879,
+            97039,
+            99617,
+            111684
+          ],
+          "organic": [
+            40050,
+            45923,
+            46497,
+            48303,
+            55795,
+            59165,
+            55426,
+            58316,
+            67115,
+            67927,
+            69732,
+            78179
+          ],
+          "social": [
+            21455,
+            24601,
+            24909,
+            25876,
+            29890,
+            31695,
+            29692,
+            31240,
+            35954,
+            36389,
+            37356,
+            41881
+          ],
+          "referral": [
+            14303,
+            16401,
+            16606,
+            17251,
+            19926,
+            21130,
+            19795,
+            20827,
+            23969,
+            24259,
+            24904,
+            27921
+          ],
+          "paid": [
+            7151,
+            8200,
+            8303,
+            8625,
+            9963,
+            10565,
+            9897,
+            10413,
+            11984,
+            12129,
+            12452,
+            13960
+          ],
+          "email": [
+            2863,
+            3283,
+            3323,
+            3453,
+            3987,
+            4229,
+            3960,
+            4168,
+            4798,
+            4856,
+            4982,
+            5586
+          ]
+        }
+      },
+      "instagram": {
+        "handle": "@lojasrede",
+        "followers": 149507,
+        "posts": 4650,
+        "engagement_rate": 3.24,
+        "avg_likes": 4359,
+        "avg_comments": 484
+      }
+    }
+  },
+  "keywords": [
+    {
+      "term": "perfumaria importados sp",
+      "volume": 3994,
+      "cpc": 4.4,
+      "position": 2,
+      "difficulty": 33,
+      "trend": "up"
+    },
+    {
+      "term": "comprar perfume importado são paulo",
+      "volume": 9490,
+      "cpc": 1.93,
+      "position": 8,
+      "difficulty": 35,
+      "trend": "up"
+    },
+    {
+      "term": "loja cosméticos são paulo",
+      "volume": 10229,
+      "cpc": 1.05,
+      "position": 8,
+      "difficulty": 66,
+      "trend": "down"
+    },
+    {
+      "term": "maquiagem profissional sp",
+      "volume": 14401,
+      "cpc": 1.74,
+      "position": 10,
+      "difficulty": 30,
+      "trend": "up"
+    },
+    {
+      "term": "perfumaria centro sp",
+      "volume": 7888,
+      "cpc": 1.74,
+      "position": 5,
+      "difficulty": 41,
+      "trend": "stable"
+    },
+    {
+      "term": "perfumes baratos são paulo",
+      "volume": 3727,
+      "cpc": 3.81,
+      "position": 13,
+      "difficulty": 36,
+      "trend": "up"
+    },
+    {
+      "term": "loja perfumes zona sul sp",
+      "volume": 4433,
+      "cpc": 1.43,
+      "position": 11,
+      "difficulty": 42,
+      "trend": "stable"
+    },
+    {
+      "term": "cosméticos importados sp",
+      "volume": 9860,
+      "cpc": 0.94,
+      "position": 9,
+      "difficulty": 56,
+      "trend": "down"
+    },
+    {
+      "term": "perfumaria 24 horas sp",
+      "volume": 6933,
+      "cpc": 2.71,
+      "position": 12,
+      "difficulty": 57,
+      "trend": "down"
+    },
+    {
+      "term": "maquiagem sp",
+      "volume": 1439,
+      "cpc": 0.91,
+      "position": 11,
+      "difficulty": 32,
+      "trend": "up"
+    },
+    {
+      "term": "loja beleza são paulo",
+      "volume": 4410,
+      "cpc": 2.58,
+      "position": 2,
+      "difficulty": 62,
+      "trend": "down"
+    },
+    {
+      "term": "perfumes femininos sp",
+      "volume": 7524,
+      "cpc": 3.08,
+      "position": 6,
+      "difficulty": 67,
+      "trend": "stable"
+    },
+    {
+      "term": "perfumes masculinos sp",
+      "volume": 987,
+      "cpc": 0.8,
+      "position": 7,
+      "difficulty": 42,
+      "trend": "stable"
+    },
+    {
+      "term": "perfumaria shopping sp",
+      "volume": 10737,
+      "cpc": 3.59,
+      "position": 6,
+      "difficulty": 70,
+      "trend": "stable"
+    },
+    {
+      "term": "cosméticos sp",
+      "volume": 6167,
+      "cpc": 1.73,
+      "position": 6,
+      "difficulty": 32,
+      "trend": "down"
+    }
+  ],
+  "keywords_trend": {
+    "months": [
+      "Jan",
+      "Fev",
+      "Mar",
+      "Abr",
+      "Mai",
+      "Jun",
+      "Jul",
+      "Ago",
+      "Set",
+      "Out",
+      "Nov",
+      "Dez"
+    ],
+    "aggregated_monthly_volume": [
+      108940,
+      97179,
+      102121,
+      115644,
+      91808,
+      98865,
+      107801,
+      101787,
+      94483,
+      94395,
+      101491,
+      102486
+    ]
+  }
+}

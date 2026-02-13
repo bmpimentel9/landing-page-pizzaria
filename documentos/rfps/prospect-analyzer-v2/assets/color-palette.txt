@@ -1,0 +1,187 @@
+# Paleta de Cores V4 Company
+
+## Cores Principais
+
+### Primário (Vermelho V4)
+- HEX: #C41E3A
+- RGB: 196, 30, 58
+- Uso: Fundos, botões principais, destaques
+
+### Secundário (Vermelho Escuro)
+- HEX: #8B0000
+- RGB: 139, 0, 0
+- Uso: Headers, bordas, sombras
+
+### Acento (Coral)
+- HEX: #FF6B6B
+- RGB: 255, 107, 107
+- Uso: Subtítulos, highlights, links
+
+### Acento Secundário (Laranja)
+- HEX: #FF8C42
+- RGB: 255, 140, 66
+- Uso: CTAs, alertas positivos, ícones
+
+## Cores de Suporte
+
+### Texto Principal
+- HEX: #FFFFFF
+- RGB: 255, 255, 255
+- Uso: Todo texto em fundo escuro
+
+### Fundo Alternativo
+- HEX: #1A1A1A
+- RGB: 26, 26, 26
+- Uso: Slides alternativos, contraste
+
+### Cinza Claro
+- HEX: #F5F5F5
+- RGB: 245, 245, 245
+- Uso: Fundos de cards em slides claros
+
+## Gradientes
+
+### Fundo Principal
+- Início: #C41E3A
+- Fim: #8B0000
+- Direção: 135° (diagonal)
+- CSS: linear-gradient(135deg, #C41E3A 0%, #8B0000 100%)
+
+### Fundo Alternativo
+- Início: #1A1A1A
+- Fim: #2D2D2D
+- Direção: 180° (vertical)
+- CSS: linear-gradient(180deg, #1A1A1A 0%, #2D2D2D 100%)
+
+## Status (Para Tabelas e Indicadores)
+
+### Positivo/OK
+- HEX: #4CAF50
+- RGB: 76, 175, 80
+- Uso: ✓ Implementado, scores altos
+
+### Atenção/Parcial
+- HEX: #FFC107
+- RGB: 255, 193, 7
+- Uso: ⚠ Parcial, scores médios
+
+### Negativo/Ausente
+- HEX: #F44336
+- RGB: 244, 67, 54
+- Uso: ✗ Não implementado, scores baixos
+
+## Gráficos Chart.js
+
+### Radar
+```javascript
+{
+  borderColor: '#FF6B6B',
+  backgroundColor: 'rgba(255, 107, 107, 0.2)',
+  pointBackgroundColor: '#FF6B6B'
+}
+```
+
+### Barras
+```javascript
+{
+  backgroundColor: [
+    '#C41E3A', // Primário
+    '#FF6B6B', // Acento
+    '#FF8C42', // Acento secundário
+    '#8B0000'  // Secundário
+  ]
+}
+```
+
+### Linhas
+```javascript
+{
+  borderColor: '#FF6B6B',
+  backgroundColor: 'rgba(255, 107, 107, 0.1)',
+  tension: 0.3
+}
+```
+
+## Tabelas
+
+### Header
+- Background: #8B0000
+- Texto: #FFFFFF
+- Borda: none
+
+### Linhas Ímpares
+- Background: rgba(255, 255, 255, 0.05)
+
+### Linhas Pares
+- Background: transparent
+
+### Hover
+- Background: rgba(255, 107, 107, 0.1)
+
+## Tipografia
+
+### Títulos (H1)
+- Cor: #FFFFFF
+- Fonte: Sans-serif (Arial, Helvetica)
+- Peso: Bold (700)
+- Tamanho: 44-54pt
+
+### Subtítulos (H2)
+- Cor: #FF6B6B
+- Fonte: Sans-serif
+- Peso: Semi-bold (600)
+- Tamanho: 24-32pt
+
+### Corpo
+- Cor: #FFFFFF
+- Fonte: Sans-serif
+- Peso: Regular (400)
+- Tamanho: 16-20pt
+
+### Rodapé
+- Cor: rgba(255, 255, 255, 0.7)
+- Fonte: Sans-serif
+- Peso: Regular (400)
+- Tamanho: 12-14pt
+
+## CSS Variables
+
+```css
+:root {
+  /* Cores principais */
+  --v4-primary: #C41E3A;
+  --v4-secondary: #8B0000;
+  --v4-accent: #FF6B6B;
+  --v4-accent-alt: #FF8C42;
+  
+  /* Texto e fundos */
+  --v4-text: #FFFFFF;
+  --v4-bg-dark: #1A1A1A;
+  --v4-bg-light: #F5F5F5;
+  
+  /* Status */
+  --v4-success: #4CAF50;
+  --v4-warning: #FFC107;
+  --v4-error: #F44336;
+  
+  /* Gradientes */
+  --v4-gradient-main: linear-gradient(135deg, #C41E3A 0%, #8B0000 100%);
+  --v4-gradient-dark: linear-gradient(180deg, #1A1A1A 0%, #2D2D2D 100%);
+  
+  /* Transparências */
+  --v4-overlay-light: rgba(255, 255, 255, 0.1);
+  --v4-overlay-accent: rgba(255, 107, 107, 0.2);
+}
+```
+
+## Acessibilidade
+
+### Contraste Mínimo
+- Texto branco em vermelho (#C41E3A): ✓ WCAG AA
+- Texto coral em vermelho escuro: ✓ WCAG AA
+- Evitar: texto vermelho em fundo coral (contraste insuficiente)
+
+### Tamanhos Mínimos
+- Texto: 14pt mínimo
+- Títulos: 24pt mínimo
+- Ícones: 24px mínimo

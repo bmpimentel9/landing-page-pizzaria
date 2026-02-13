@@ -1,0 +1,335 @@
+{
+  "timestamp": "2026-01-28T17:20:00",
+  "fonte": "Pesquisa de mercado e análise de tendências Google (sem acesso a ferramentas pagas)",
+  "disclaimer": "Volumes de busca não disponíveis publicamente. Palavras-chave baseadas em análise de mercado, tendências do setor e pesquisas públicas sobre o mercado de consórcios.",
+  "metodologia": "Identificação de termos transacionais relevantes para o setor de consórcios com base em: (1) Tendências de mercado 2025, (2) Termos comuns do setor identificados em pesquisas, (3) Análise de SERPs manuais",
+  "palavras_chave": [
+    {
+      "palavra": "consórcio",
+      "tipo": "navegacional_amplo",
+      "intencao": "informacional/transacional",
+      "volume_estimado": "Dado não disponível publicamente",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Alta",
+      "concorrentes_serp": ["Rodobens", "Itaú", "Santander", "Sicredi", "MAPFRE"],
+      "fonte": "Análise manual de SERP"
+    },
+    {
+      "palavra": "consórcio de carro",
+      "tipo": "transacional",
+      "intencao": "alta intenção de compra",
+      "volume_estimado": "Alto (baseado em tendências de mercado)",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Muito Alta",
+      "concorrentes_serp": ["Rodobens", "Itaú Consórcios", "Santander", "Porto Seguro"],
+      "fonte": "Pesquisa de mercado"
+    },
+    {
+      "palavra": "consórcio de imóvel",
+      "tipo": "transacional",
+      "intencao": "alta intenção de compra",
+      "volume_estimado": "Alto (setor cresce 20-25% em 2025)",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Muito Alta",
+      "concorrentes_serp": ["Sicredi", "Rodobens", "Itaú", "Embracon"],
+      "fonte": "ABAC - crescimento de 25% no setor imobiliário",
+      "nota": "Segmento com maior crescimento projetado para 2025"
+    },
+    {
+      "palavra": "consórcio online",
+      "tipo": "transacional",
+      "intencao": "alta intenção (busca conveniência)",
+      "volume_estimado": "Médio-Alto (crescente)",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Alta",
+      "concorrentes_serp": ["Klubi", "Rodobens Digital", "Magalu Consórcios"],
+      "fonte": "Análise de mercado",
+      "oportunidade_klubi": "Alta - Klubi é primeira fintech autorizada pelo Banco Central"
+    },
+    {
+      "palavra": "consórcio digital",
+      "tipo": "transacional",
+      "intencao": "alta intenção (busca inovação)",
+      "volume_estimado": "Médio (crescente)",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Média-Alta",
+      "concorrentes_serp": ["Klubi", "Rodobens Digital"],
+      "fonte": "Análise de mercado",
+      "oportunidade_klubi": "Muito Alta - diferencial competitivo direto"
+    },
+    {
+      "palavra": "melhor consórcio brasil",
+      "tipo": "comparativo_transacional",
+      "intencao": "pesquisa antes da compra",
+      "volume_estimado": "Médio",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Alta",
+      "concorrentes_serp": ["iDinheiro (review)", "ConsorcioCred (review)", "Rodobens"],
+      "fonte": "Análise de SERP - dominado por sites de comparação"
+    },
+    {
+      "palavra": "consórcio contemplado",
+      "tipo": "transacional",
+      "intencao": "alta intenção (busca lance/compra de cota)",
+      "volume_estimado": "Médio",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Alta",
+      "concorrentes_serp": ["Rodobens", "Embracon", "HS Consórcios"],
+      "fonte": "Análise de mercado"
+    },
+    {
+      "palavra": "consórcio vale a pena",
+      "tipo": "informacional_pre_compra",
+      "intencao": "consideração (topo/meio de funil)",
+      "volume_estimado": "Alto (pico de interesse em 2024-2025)",
+      "cpc_estimado": "Baixo-Médio",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["Blogs financeiros", "Turn2C", "O2O Bots"],
+      "fonte": "Turn2C - termo dominou buscas em finanças nos últimos 12 meses",
+      "nota": "Excelente para conteúdo educacional e captura de topo de funil"
+    },
+    {
+      "palavra": "como funciona consórcio",
+      "tipo": "informacional",
+      "intencao": "educacional (topo de funil)",
+      "volume_estimado": "Médio-Alto",
+      "cpc_estimado": "Baixo",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["Blogs", "Sites educacionais", "Administradoras"],
+      "fonte": "Análise de tendências"
+    },
+    {
+      "palavra": "consórcio sem juros",
+      "tipo": "transacional",
+      "intencao": "alta (busca benefício específico)",
+      "volume_estimado": "Médio",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Alta",
+      "concorrentes_serp": ["Diversas administradoras"],
+      "fonte": "Análise de mercado - benefício chave do produto"
+    },
+    {
+      "palavra": "consórcio celular",
+      "tipo": "transacional",
+      "intencao": "alta",
+      "volume_estimado": "Médio (crescimento de eletroeletrônicos: 20-23%)",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Média-Alta",
+      "concorrentes_serp": ["Gazin", "Magalu", "Administradoras gerais"],
+      "fonte": "ABAC - setor eletroeletrônicos cresce 20-23% em 2025"
+    },
+    {
+      "palavra": "consórcio moto",
+      "tipo": "transacional",
+      "intencao": "alta",
+      "volume_estimado": "Médio",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Alta",
+      "concorrentes_serp": ["Honda Consórcios", "Rodobens", "Bradesco"],
+      "fonte": "Análise de mercado"
+    },
+    {
+      "palavra": "consórcio viagem",
+      "tipo": "transacional",
+      "intencao": "média-alta",
+      "volume_estimado": "Baixo-Médio",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["CVC Consórcios", "Administradoras gerais"],
+      "fonte": "Análise de mercado - nicho específico"
+    },
+    {
+      "palavra": "simulação consórcio",
+      "tipo": "transacional",
+      "intencao": "alta (fundo de funil)",
+      "volume_estimado": "Médio-Alto",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Muito Alta",
+      "concorrentes_serp": ["Todas as administradoras principais"],
+      "fonte": "Análise de comportamento do consumidor"
+    },
+    {
+      "palavra": "taxa administrativa consórcio",
+      "tipo": "comparativo",
+      "intencao": "consideração",
+      "volume_estimado": "Baixo-Médio",
+      "cpc_estimado": "Baixo-Médio",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["Sites de comparação", "Administradoras"],
+      "fonte": "Análise de mercado"
+    },
+    {
+      "palavra": "consórcio banco central",
+      "tipo": "informacional_confiança",
+      "intencao": "verificação de legitimidade",
+      "volume_estimado": "Baixo",
+      "cpc_estimado": "Baixo",
+      "concorrencia": "Baixa",
+      "concorrentes_serp": ["Banco Central (ranking)", "Sites informativos"],
+      "fonte": "Análise de mercado",
+      "oportunidade_klubi": "Alta - Klubi é autorizada pelo BC, diferencial forte"
+    },
+    {
+      "palavra": "comparar consórcio",
+      "tipo": "comparativo_transacional",
+      "intencao": "consideração avançada",
+      "volume_estimado": "Médio",
+      "cpc_estimado": "Médio-Alto",
+      "concorrencia": "Alta",
+      "concorrentes_serp": ["Sites de comparação", "Agregadores"],
+      "fonte": "Análise de comportamento"
+    },
+    {
+      "palavra": "consórcio mais barato",
+      "tipo": "transacional",
+      "intencao": "alta (sensibilidade a preço)",
+      "volume_estimado": "Médio",
+      "cpc_estimado": "Médio-Alto",
+      "concorrencia": "Alta",
+      "concorrentes_serp": ["Diversas administradoras"],
+      "fonte": "Análise de mercado",
+      "oportunidade_klubi": "Média - Klubi promete 'menor mensalidade'"
+    },
+    {
+      "palavra": "consórcio confiável",
+      "tipo": "informacional_pre_compra",
+      "intencao": "consideração (busca segurança)",
+      "volume_estimado": "Baixo-Médio",
+      "cpc_estimado": "Médio",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["Reviews", "Ranking Banco Central"],
+      "fonte": "Análi se de comportamento"
+    },
+    {
+      "palavra": "consórcio eletrodomésticos",
+      "tipo": "transacional",
+      "intencao": "alta",
+      "volume_estimado": "Médio (setor cresce 23% em 2025)",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Média-Alta",
+      "concorrentes_serp": ["Gazin", "Magalu", "Rodobens"],
+      "fonte": "ABAC - crescimento de 23% projetado"
+    },
+    {
+      "palavra": "consórcio notebook",
+      "tipo": "transacional",
+      "intencao": "média-alta",
+      "volume_estimado": "Baixo-Médio",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["Magalu", "Gazin"],
+      "fonte": "Análise de mercado"
+    },
+    {
+      "palavra": "consórcio reforma",
+      "tipo": "transacional",
+      "intencao": "média",
+      "volume_estimado": "Baixo-Médio",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["Administradoras gerais"],
+      "fonte": "Análise de mercado - relacionado a imóveis"
+    },
+    {
+      "palavra": "consórcio serviços",
+      "tipo": "transacional",
+      "intencao": "média",
+      "volume_estimado": "Baixo-Médio (setor cresce 10% em 2025)",
+      "cpc_estimado": "Dado não disponível publicamente",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["Administradoras especializadas"],
+      "fonte": "ABAC - crescimento de 10% no setor de serviços"
+    },
+    {
+      "palavra": "consórcio fácil aprovação",
+      "tipo": "transacional",
+      "intencao": "alta (busca facilidade)",
+      "volume_estimado": "Baixo-Médio",
+      "cpc_estimado": "Médio-Alto",
+      "concorrencia": "Média-Alta",
+      "concorrentes_serp": ["Administradoras digitais"],
+      "fonte": "Análise de mercado",
+      "oportunidade_klubi": "Alta - proposta de simplicidade digital"
+    },
+    {
+      "palavra": "consórcio jovem",
+      "tipo": "segmentado_transacional",
+      "intencao": "alta",
+      "volume_estimado": "Baixo",
+      "cpc_estimado": "Médio",
+      "concorrencia": "Média",
+      "concorrentes_serp": ["Administradoras com programas específicos"],
+      "fonte": "Análise de mercado",
+      "oportunidade_klubi": "Muito Alta - público-alvo Klubi: 33 anos (vs 50 do setor)",
+      "nota": "Termo alinhado com posicionamento da Klubi para público mais jovem"
+    },
+    {
+      "palavra": "primeiro consórcio digital",
+      "tipo": "branded_diferenciacao",
+      "intencao": "alta (busca inovação específica)",
+      "volume_estimado": "Muito Baixo",
+      "cpc_estimado": "Baixo",
+      "concorrencia": "Muito Baixa",
+      "concorrentes_serp": ["Klubi"],
+      "fonte": "Análise de diferencial competitivo",
+      "oportunidade_klubi": "Máxima - termo proprietário, Klubi é única"
+    }
+  ],
+  "insights_estrategicos": {
+    "termos_alto_potencial_klubi": [
+      "consórcio digital",
+      "consórcio online",
+      "consórcio jovem",
+      "consórcio fácil aprovação",
+      "primeiro consórcio digital",
+      "consórcio banco central"
+    ],
+    "termos_volume_mercado": [
+      "consórcio",
+      "consórcio de carro",
+      "consórcio de imóvel",
+      "consórcio vale a pena",
+      "simulação consórcio"
+    ],
+    "gaps_conteudo_identificados": [
+      "Ausência de conteúdo educacional para 'consórcio vale a pena' (termo dominante)",
+      "Oportunidade em 'como funciona consórcio' para captura de topo de funil",
+      "Potencial inexplorado em comparativos e reviews"
+    ],
+    "segmentos_crescimento_2025": {
+      "imoveis": "+25% (ABAC)",
+      "eletroeletronicos": "+20-23% (ABAC)",
+      "servicos": "+10% (ABAC)",
+      "geral": "+8-11% (ABAC)"
+    }
+  },
+  "limitacoes_metodologicas": [
+    "Volumes de busca não obtidos via ferramentas pagas (SEMrush, Ahrefs indisponíveis)",
+    "CPC estimado não disponível sem acesso a Google Keyword Planner ou ferramentas pagas",
+    "Concorrentes SERP baseados em análise manual limitada",
+    "Estimativas qualitativas baseadas em tendências de mercado publicadas"
+  ],
+  "fontes": [
+    {
+      "fonte": "ABAC (Associação Brasileira de Administradoras de Consórcios)",
+      "dado": "Crescimento setorial 2025",
+      "confiabilidade": "Alta"
+    },
+    {
+      "fonte": "Turn2C - Tendências do mercado de consórcio para 2025",
+      "url": "https://turn2c.com/tendencias-do-mercado-de-consorcio-para-2025-oportunidades-e-crescimento/",
+      "dado": "'Consórcio vale a pena' dominou buscas em finanças",
+      "confiabilidade": "Média-Alta"
+    },
+    {
+      "fonte": "Google Trends Brasil",
+      "dado": "Tendências gerais de pesquisa",
+      "confiabilidade": "Alta"
+    },
+    {
+      "fonte": "Análise manual de SERPs",
+      "dado": "Concorrentes por palavra-chave",
+      "confiabilidade": "Média"
+    }
+  ]
+}

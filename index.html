@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Sabor & Delivery - 15% OFF</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Pizzaria Sabor & Delivery - 15% OFF na Primeira Compra</title>
+    <meta name="description" content="Pizza artesanal delivery em 45min. ingredients frescos, massa caseira. Ganhe 15% OFF na primeira compra. Peça agora!">
+    <meta name="keywords" content="pizzaria, pizza delivery, pizza artesanal, pizza online, pedido de pizza, promoção pizza">
+    <meta name="author" content="Pizzaria Sabor & Delivery">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sabor-delivery.com.br">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sabor-delivery.com.br">
+    <meta property="og:title" content="Pizzaria Sabor & Delivery - 15% OFF">
+    <meta property="og:description" content="Pizza artesanal delivery em 45min. Ganhe 15% OFF na primeira compra!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&h=630&fit=crop">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sabor-delivery.com.br">
+    <meta property="twitter:title" content="Pizzaria Sabor & Delivery - 15% OFF">
+    <meta property="twitter:description" content="Pizza artesanal delivery em 45min. Ganhe 15% OFF na primeira compra!">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&h=630&fit=crop">
+    
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "PizzaRestaurant",
+        "name": "Pizzaria Sabor & Delivery",
+        "description": "Pizza artesanal delivery com ingredientes frescos",
+        "url": "https://sabor-delivery.com.br",
+        "telephone": "+55-11-99999-9999",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "addressCountry": "BR"
+        },
+        "openingHours": "Mo-Su 18:00-23:00",
+        "priceRange": "$$",
+        "servesCuisine": "Pizza",
+        "acceptsReservations": "false"
+    }
+    </script>
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID');
+        fbq('track', 'PageView');
+    </script>
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
     <style>
         :root {
             --red-primary: #E53935;
@@ -38,6 +107,63 @@
             font-family: 'Playfair Display', serif;
         }
 
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-logo {
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .nav-logo span {
+            color: var(--gold);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-btn-ifood {
+            background: #EA1D2C;
+            color: white !important;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+
+        .nav-btn-ifood:hover {
+            background: #c71827;
+            transform: translateY(-2px);
+        }
+
         /* Hero Section */
         .hero {
             min-height: 100vh;
@@ -46,6 +172,7 @@
             display: flex;
             align-items: center;
             overflow: hidden;
+            padding-top: 80px;
         }
 
         .hero::before {
@@ -57,6 +184,16 @@
             height: 150%;
             background: radial-gradient(ellipse, rgba(229, 57, 53, 0.15) 0%, transparent 70%);
             animation: pulse 8s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background: linear-gradient(to top, var(--light), transparent);
         }
 
         @keyframes pulse {
@@ -82,14 +219,8 @@
         }
 
         @keyframes slideInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
         }
 
         .badge {
@@ -126,15 +257,49 @@
             font-weight: 300;
         }
 
-        .pizza-emoji {
-            font-size: 4rem;
-            display: inline-block;
-            animation: rotate 10s linear infinite;
+        .hero-image {
+            animation: slideInRight 1s ease-out 0.3s both;
         }
 
-        @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+        .hero-image img {
+            width: 100%;
+            max-width: 550px;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        /* Countdown Timer */
+        .countdown {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .countdown-item {
+            background: rgba(255, 179, 0, 0.2);
+            border: 1px solid var(--gold);
+            padding: 0.75rem 1rem;
+            border-radius: 12px;
+            text-align: center;
+            min-width: 70px;
+        }
+
+        .countdown-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--gold);
+            display: block;
+        }
+
+        .countdown-label {
+            font-size: 0.7rem;
+            color: #B0B0B0;
+            text-transform: uppercase;
         }
 
         /* Form Card */
@@ -143,20 +308,16 @@
             padding: 2.5rem;
             border-radius: 24px;
             box-shadow: var(--shadow);
-            animation: slideInRight 1s ease-out 0.3s both;
             max-width: 450px;
             margin: 0 auto;
         }
 
-        @keyframes slideInRight {
-            from {
-                opacity: 0;
-                transform: translateX(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
+        .form-step {
+            transition: var(--transition);
+        }
+
+        .form-step.hidden {
+            display: none;
         }
 
         .form-card h3 {
@@ -215,6 +376,32 @@
             box-shadow: 0 0 0 4px rgba(229, 57, 53, 0.1);
         }
 
+        .form-group input.error {
+            border-color: #f44336;
+            animation: shake 0.5s;
+        }
+
+        .form-group input.success {
+            border-color: #4CAF50;
+        }
+
+        .error-message {
+            color: #f44336;
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
         .btn-primary {
             width: 100%;
             padding: 1.2rem;
@@ -234,8 +421,10 @@
             box-shadow: 0 10px 30px rgba(229, 57, 53, 0.4);
         }
 
-        .btn-primary:active {
-            transform: translateY(0);
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
         }
 
         .privacy-note {
@@ -245,19 +434,18 @@
             margin-top: 1rem;
         }
 
-        .privacy-note span {
+        .privacy-note a {
             color: var(--red-primary);
+            text-decoration: underline;
         }
 
         /* Success State */
         .success-message {
-            display: none;
             text-align: center;
-            padding: 2rem;
+            padding: 1rem 0;
         }
 
         .success-message.show {
-            display: block;
             animation: fadeIn 0.5s ease-out;
         }
 
@@ -359,17 +547,226 @@
             font-size: 0.95rem;
         }
 
+        /* Testimonials Section */
+        .testimonials {
+            padding: 5rem 2rem;
+            background: var(--light);
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .testimonials-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: var(--transition);
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .testimonial-stars {
+            color: var(--gold);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-text {
+            color: var(--gray);
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        /* Floating WhatsApp Button */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .floating-whatsapp a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            border-radius: 50%;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            text-decoration: none;
+            font-size: 2rem;
+            transition: var(--transition);
+        }
+
+        .floating-whatsapp a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 30px rgba(37, 211, 102, 0.5);
+        }
+
+        /* Popup Abandonment */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 2000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .popup-overlay.show {
+            display: flex;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .popup-content {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 24px;
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            animation: slideUp 0.3s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .popup-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--gray);
+        }
+
+        .popup-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .popup-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .popup-content p {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
+        }
+
+        .popup-coupon {
+            background: var(--gold);
+            color: var(--dark);
+            padding: 1rem;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
         /* Footer */
         .footer {
             background: var(--dark);
             color: white;
             padding: 3rem 2rem;
-            text-align: center;
         }
 
-        .footer p {
-            opacity: 0.7;
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .footer h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--gold);
+        }
+
+        .footer p, .footer a {
+            color: #B0B0B0;
+            text-decoration: none;
             font-size: 0.9rem;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .footer a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 2rem auto 0;
+            padding-top: 2rem;
+            border-top: 1px solid #333;
+            text-align: center;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #333;
+            border-radius: 50%;
+            font-size: 1.2rem;
+        }
+
+        .social-links a:hover {
+            background: var(--gold);
+            color: var(--dark);
         }
 
         /* Mobile Responsive */
@@ -388,12 +785,20 @@
                 order: 1;
             }
 
-            .form-card {
+            .hero-image {
                 order: 2;
             }
 
-            .features-grid {
+            .features-grid, .testimonials-grid, .footer-content {
                 grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .countdown {
+                justify-content: center;
             }
         }
 
@@ -409,21 +814,58 @@
             .offer-highlight .discount {
                 font-size: 2rem;
             }
+
+            .countdown-item {
+                min-width: 60px;
+                padding: 0.5rem;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#" class="nav-logo">🍕 Sabor <span>&</span> Delivery</a>
+        <div class="nav-links">
+            <a href="#features">Diferenciais</a>
+            <a href="#testimonials">Depoimentos</a>
+            <a href="https://www.ifood.com.br/" class="nav-btn-ifood" target="_blank" rel="noopener">Pedir no iFood</a>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
                 <span class="badge">🍕 Promoção Exclusiva</span>
-                <h1>A Pizza Perfeita<br>Entregue na Sua <span>Porta</span> <span class="pizza-emoji">🍕</span></h1>
+                <h1>A Pizza Perfeita<br>Entregue na Sua <span>Porta</span></h1>
                 <p class="hero-subtitle">Massa artesanal, ingredientes frescos e o sabor que você não esquece. Peça agora e prove a diferença!</p>
+                
+                <div class="countdown" id="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="hours">02</span>
+                        <span class="countdown-label">Horas</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="minutes">34</span>
+                        <span class="countdown-label">Min</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="seconds">21</span>
+                        <span class="countdown-label">Seg</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=600&fit=crop&auto=format" 
+                     alt="Pizza artesanal deliciosa" 
+                     loading="eager">
             </div>
             
             <div class="form-card" id="formCard">
-                <div id="captureForm">
+                <!-- Step 1: Email -->
+                <div class="form-step" id="step1">
                     <div class="offer-highlight">
                         <span class="discount">15% OFF</span>
                         na primeira compra!
@@ -432,16 +874,41 @@
                     <p>Cadastre-se e receba ofertas exclusivas no seu email</p>
                     
                     <form id="emailForm">
+                        <input type="hidden" name="utm_source" id="utmSource">
+                        <input type="hidden" name="utm_medium" id="utmMedium">
+                        <input type="hidden" name="utm_campaign" id="utmCampaign">
+                        
                         <div class="form-group">
                             <label for="email">Seu melhor email</label>
                             <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                            <span class="error-message" id="emailError">Por favor, insira um email válido</span>
                         </div>
-                        <button type="submit" class="btn-primary">Quero meu 15% OFF →</button>
+                        <button type="submit" class="btn-primary" id="emailBtn">Quero meu 15% OFF →</button>
                     </form>
                     
-                    <p class="privacy-note">🔒 Seus dados estão seguros com a gente</p>
+                    <p class="privacy-note">🔒 <a href="#" id="privacyLink">Política de Privacidade</a></p>
                 </div>
 
+                <!-- Step 2: WhatsApp -->
+                <div class="form-step hidden" id="step2">
+                    <div class="offer-highlight">
+                        <span class="discount">15% OFF</span>
+                        garantido!
+                    </div>
+                    <h3>Receba no WhatsApp</h3>
+                    <p>Nosso cardápio completo com promoções exclusivas</p>
+                    
+                    <form id="whatsappForm">
+                        <div class="form-group">
+                            <label for="whatsapp">Seu WhatsApp</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(11) 99999-9999" required>
+                            <span class="error-message" id="whatsappError">Por favor, insira um WhatsApp válido</span>
+                        </div>
+                        <button type="submit" class="btn-primary">Receber Cardápio →</button>
+                    </form>
+                </div>
+
+                <!-- Success -->
                 <div class="success-message" id="successMessage">
                     <div class="success-icon">✓</div>
                     <h3>Parabéns! 🎉</h3>
@@ -456,7 +923,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features">
+    <section class="features" id="features">
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">👨‍🍳</div>
@@ -476,40 +943,278 @@
         </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"A melhor pizza que já experimentei! Massa crocante, ingredientes frescos. Entrega super rápida, chegou quentinha!"</p>
+                <p class="testimonial-author">- Carlos M.</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Agora sou cliente fidelity! O sabor é incredible e o atendimento é excelente. Recomendo para todos!"</p>
+                <p class="testimonial-author">- Fernanda S.</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Pizza deliciosa, preco justo e entrega sempre no horario. Minha familia adorou o 15% de desconto!"</p>
+                <p class="testimonial-author">- Roberto A.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="floating-whatsapp">
+        <a href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido." 
+           target="_blank" 
+           rel="noopener"
+           aria-label="Falar no WhatsApp">
+            💬
+        </a>
+    </div>
+
+    <!-- Popup Abandonment -->
+    <div class="popup-overlay" id="popupAbandonment">
+        <div class="popup-content">
+            <button class="popup-close" id="popupClose">&times;</button>
+            <div class="popup-icon">🍕</div>
+            <h3>Espera ai!</h3>
+            <p>Não perca a chance de ganhar <strong>15% OFF</strong> na sua primeira pizza!</p>
+            <div class="popup-coupon">Use o cupom: PRIMEIRA15</div>
+            <button class="btn-primary" id="popupCta">Quero meu desconto!</button>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
-        <p>© 2025 Pizzaria Sabor & Delivery. Todos os direitos reservados.</p>
+        <div class="footer-content">
+            <div>
+                <h4>🍕 Sabor & Delivery</h4>
+                <p>Sua pizzaria de confiança</p>
+                <p>Entregando alegria desde 2020</p>
+            </div>
+            <div>
+                <h4>Contato</h4>
+                <p>📍 São Paulo, SP</p>
+                <p>📞 (11) 99999-9999</p>
+                <p>✉️ contato@sabor.com.br</p>
+            </div>
+            <div>
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="WhatsApp">💬</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pizzaria Sabor & Delivery. Todos os direitos reservados. | <a href="#">Política de Privacidade</a></p>
+        </div>
     </footer>
 
     <script>
+        // Configuration
+        const GOOGLE_SHEETS_FORM_URL = 'https://docs.google.com/forms/d/YOUR_FORM_ID/formResponse';
+        const WHATSAPP_NUMBER = '5511999999999';
+        
+        // DOM Elements
         const emailForm = document.getElementById('emailForm');
-        const captureForm = document.getElementById('captureForm');
+        const whatsappForm = document.getElementById('whatsappForm');
+        const step1 = document.getElementById('step1');
+        const step2 = document.getElementById('step2');
         const successMessage = document.getElementById('successMessage');
-        const whatsappBtn = document.getElementById('whatsappBtn');
         const emailInput = document.getElementById('email');
+        const whatsappInput = document.getElementById('whatsapp');
+        const whatsappBtn = document.getElementById('whatsappBtn');
+        const emailError = document.getElementById('emailError');
+        const whatsappError = document.getElementById('whatsappError');
+        const popupAbandonment = document.getElementById('popupAbandonment');
+        const popupClose = document.getElementById('popupClose');
+        const popupCta = document.getElementById('popupCta');
 
-        // Configuração - alterar para o número da pizzaria
-        const WHATSAPP_NUMBER = '5511999999999'; // formato: código país + DDD + número
-        const WHATSAPP_MESSAGE = encodeURIComponent('Olá! Acabei de me cadastrar no site e quero receber o cardápio com as promoções!');
+        // UTM Parameters
+        function getUtmParams() {
+            const params = new URLSearchParams(window.location.search);
+            document.getElementById('utmSource').value = params.get('utm_source') || 'direct';
+            document.getElementById('utmMedium').value = params.get('utm_medium') || '';
+            document.getElementById('utmCampaign').value = params.get('utm_campaign') || '';
+        }
+        getUtmParams();
 
+        // Cookie Session - Don't show form twice
+        function hasSubmittedForm() {
+            return document.cookie.split('; ').some(c => c.startsWith('pizzaria_lead='));
+        }
+
+        function setFormSubmitted() {
+            const d = new Date();
+            d.setTime(d.getTime() + (30 * 24 * 60 * 60 * 1000));
+            document.cookie = `pizzaria_lead=true; expires=${d.toUTCString()}; path=/`;
+        }
+
+        // Email Validation
+        function isValidEmail(email) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+
+        // WhatsApp Validation
+        function isValidWhatsapp(phone) {
+            const cleaned = phone.replace(/\D/g, '');
+            return cleaned.length >= 10 && cleaned.length <= 13;
+        }
+
+        // Phone Mask
+        whatsappInput.addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 0) {
+                if (value.length <= 2) value = `(${value}`;
+                else if (value.length <= 7) value = `(${value.slice(0,2)}) ${value.slice(2)}`;
+                else value = `(${value.slice(0,2)}) ${value.slice(2,7)}-${value.slice(7,11)}`;
+            }
+            e.target.value = value;
+        });
+
+        // Countdown Timer - 2 hours from now
+        function startCountdown() {
+            const endTime = new Date().getTime() + (2 * 60 * 60 * 1000);
+            
+            setInterval(() => {
+                const now = new Date().getTime();
+                const distance = endTime - now;
+                
+                if (distance < 0) {
+                    document.getElementById('hours').textContent = '00';
+                    document.getElementById('minutes').textContent = '00';
+                    document.getElementById('seconds').textContent = '00';
+                    return;
+                }
+                
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            }, 1000);
+        }
+        startCountdown();
+
+        // Email Form Submit
         emailForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            const email = emailInput.value;
+            const email = emailInput.value.trim();
             
-            // Aqui você pode enviar o email para seu backend/API
-            console.log('Email capturado:', email);
+            if (!isValidEmail(email)) {
+                emailInput.classList.add('error');
+                emailError.classList.add('show');
+                return;
+            }
             
-            // Simular envio e mostrar próxima etapa
-            captureForm.style.display = 'none';
-            successMessage.classList.add('show');
+            emailInput.classList.remove('error');
+            emailError.classList.remove('show');
+            emailInput.classList.add('success');
             
-            // Configurar link do WhatsApp
-            whatsappBtn.href = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + WHATSAPP_MESSAGE;
+            // Save to Google Sheets (via form redirect or fetch)
+            const formData = new FormData();
+            formData.append('entry.EMAIL_FIELD_ID', email);
+            formData.append('entry.UTM_SOURCE', document.getElementById('utmSource').value);
+            formData.append('entry.UTM_MEDIUM', document.getElementById('utmMedium').value);
+            formData.append('entry.UTM_CAMPAIGN', document.getElementById('utmCampaign').value);
+            
+            // Log for debug
+            console.log('Email captured:', email);
+            
+            // Track event
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'generate_lead', { 'event_category': 'form', 'event_label': 'email' });
+            }
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'Lead');
+            }
+            
+            // Move to step 2
+            step1.classList.add('hidden');
+            step2.classList.remove('hidden');
+            whatsappInput.focus();
         });
 
-        // Máscara simples para WhatsApp (se necessário adicionar campo)
-        // Pode ser expandido para capturar WhatsApp também antes do redirecionamento
+        // WhatsApp Form Submit
+        whatsappForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const whatsapp = whatsappInput.value.trim();
+            
+            if (!isValidWhatsapp(whatsapp)) {
+                whatsappInput.classList.add('error');
+                whatsappError.classList.add('show');
+                return;
+            }
+            
+            whatsappInput.classList.remove('error');
+            whatsappError.classList.remove('show');
+            
+            const cleanedWhatsapp = whatsapp.replace(/\D/g, '');
+            
+            // Save to Google Sheets
+            console.log('WhatsApp captured:', cleanedWhatsapp);
+            
+            // Track event
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'generate_lead', { 'event_category': 'form', 'event_label': 'whatsapp' });
+            }
+            
+            // Show success and redirect
+            step2.classList.add('hidden');
+            successMessage.classList.add('show');
+            
+            // Set cookie
+            setFormSubmitted();
+            
+            // Configure WhatsApp link
+            const message = encodeURIComponent('Olá! Acabei de me cadastrar no site e ganhei 15% OFF! Gostaria de ver o cardápio e fazer meu pedido.');
+            whatsappBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
+        });
+
+        // Popup Abandonment - Show after 10 seconds
+        let popupShown = false;
+        setTimeout(() => {
+            if (!hasSubmittedForm() && !popupShown) {
+                popupAbandonment.classList.add('show');
+                popupShown = true;
+                
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'popup_abandonment', { 'event_category': 'engagement' });
+                }
+            }
+        }, 10000);
+
+        // Close popup
+        popupClose.addEventListener('click', () => {
+            popupAbandonment.classList.remove('show');
+        });
+
+        popupCta.addEventListener('click', () => {
+            popupAbandonment.classList.remove('show');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Close on overlay click
+        popupAbandonment.addEventListener('click', (e) => {
+            if (e.target === popupAbandonment) {
+                popupAbandonment.classList.remove('show');
+            }
+        });
+
+        // Privacy Modal (simplified - just alert for now)
+        document.getElementById('privacyLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Política de Privacidade:\n\nSeus dados são utilizados exclusivamente para envio de promoções e comunicações da Pizzaria Sabor & Delivery. Não compartilhamos com terceiros. Você pode solicitar a exclusão a qualquer momento.');
+        });
     </script>
 </body>
 </html>
